@@ -40,6 +40,12 @@ Die Oberfläche ist deutsch, Preise erscheinen in der jeweiligen Landeswährung,
 Marktkapitalisierungen immer in USD. Beide Seiten werden statisch vorgerendert und
 alle 15 Minuten revalidiert.
 
+**Veraltungshinweis:** Ist der Datenstand älter als zwei Handelstage, zeigt die
+Startseite über dem Hero einen Hinweis mit Datum, Anzahl der Handelstage und einem
+Link zu den Workflow-Läufen. Die Prüfung steckt in `lib/freshness.ts`
+(`STALE_AFTER_TRADING_DAYS = 2`, gezählt werden Werktage; Börsenfeiertage bleiben
+unberücksichtigt).
+
 ## Kriterien
 
 | Regel | Umsetzung |

@@ -1,6 +1,8 @@
 import Topbar from "@/components/Topbar";
 import Watchlist from "@/components/Watchlist";
 import { loadSnapshot } from "@/lib/data";
+import { formatDate } from "@/lib/format";
+import { staleness } from "@/lib/freshness";
 
 export const revalidate = 900;
 
@@ -10,10 +12,32 @@ export default async function Page() {
   const snapshot = await loadSnapshot();
   const { companies, criteria, stats, generatedAt, asOf } = snapshot;
   const countries = new Set(companies.map((c) => c.country).filter(Boolean));
+  const { tradingDays, isStale } = staleness(asOf);
 
   return (
     <main className="wrap">
       <Topbar asOf={asOf} generatedAt={generatedAt} />
+
+      {isStale && (
+        <aside className="stale" role="status">
+          <div className="stale-main">
+            <strong>Datenstand veraltet</strong>
+            <span>
+              Die Momentaufnahme stammt vom {formatDate(asOf)} — das sind{" "}
+              {tradingDays} Handelstage. Der tägliche Screener hat seither nicht
+              aktualisiert, angezeigt wird der letzte erfolgreiche Stand.
+            </span>
+          </div>
+          <a
+            className="stale-link"
+            href="https://github.com/TheTechTrooper123/market-watchlist/actions/workflows/screen.yml"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Workflow-Läufe ansehen
+          </a>
+        </aside>
+      )}
 
       <section className="hero">
         <div>
