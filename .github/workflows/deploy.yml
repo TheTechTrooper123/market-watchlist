@@ -41,14 +41,10 @@ jobs:
       - name: Typecheck
         run: npx tsc --noEmit
 
-      - name: Vercel-Projekt übernehmen
-        run: npx --yes vercel@latest pull --yes --environment=production --token="$VERCEL_TOKEN"
-
-      - name: Build
-        run: npx --yes vercel@latest build --prod --token="$VERCEL_TOKEN"
-
+      # Vercel baut aus dem Quellcode (kein --prebuilt): der Upload des lokal
+      # vorab gebauten Outputs brach in CI wiederholt mit "Upload aborted" ab.
       - name: Produktion deployen
-        run: npx --yes vercel@latest deploy --prebuilt --prod --token="$VERCEL_TOKEN"
+        run: npx --yes vercel@latest deploy --prod --yes --token="$VERCEL_TOKEN"
 
       - name: Fehlermeldung als Issue anlegen
         if: failure()
