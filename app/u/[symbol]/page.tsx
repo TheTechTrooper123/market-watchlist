@@ -18,7 +18,10 @@ export async function generateMetadata({
   params: Promise<{ symbol: string }>;
 }): Promise<Metadata> {
   const { symbol } = await params;
-  const company = allCompanies().find((c) => c.symbol === symbol);
+  // Bewusst die Laufzeit-Momentaufnahme statt der im Build gebündelten Kopie:
+  // sonst tragen neu aufgenommene Unternehmen falsche Metadaten.
+  const snapshot = await loadSnapshot();
+  const company = snapshot.companies.find((c) => c.symbol === symbol);
   if (!company) return { title: "Unternehmen nicht gefunden — Market Watchlist" };
   return {
     title: `${company.name} (${company.symbol}) — Market Watchlist`,

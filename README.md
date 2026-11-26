@@ -6,7 +6,7 @@ Täglich aktualisierte Watchlist der weltweit größten börsennotierten Unterne
 [![Deployment](https://github.com/TheTechTrooper123/market-watchlist/actions/workflows/deploy.yml/badge.svg)](https://github.com/TheTechTrooper123/market-watchlist/actions/workflows/deploy.yml)
 
 **Live:** https://market-watchlist.ddnsfree.com
-**Fallback-URL:** https://market-watchlist-one.vercel.app
+**Vercel-Adresse:** https://market-watchlist-beryl.vercel.app
 
 Jeden Handelstag liest der Screener **34 Börsen** aus und behält alle Unternehmen ab
 **50 Mrd. USD** Marktkapitalisierung. Voraussetzung sind eine Notierung an der
@@ -186,8 +186,6 @@ Verhalten:
   Domain dort hinterlegt und per Let's-Encrypt-Zertifikat abgesichert; HTTP leitet mit
   308 auf HTTPS um.
 - **Vercel-Adresse:** `market-watchlist-beryl.vercel.app`.
-- **Ehemaliges Projekt:** `market-watchlist` im Team `till9` (Konto `till-dev`) besteht
-  noch als stillgelegter Stand; Domain und Deployments liegen jetzt bei `till12`.
 
 Dynu per API (Key aus `dynu_config.json`, Header `API-Key`):
 
@@ -239,11 +237,11 @@ In `lib/data.ts` legt `RAW_BASE` fest, woher die Laufzeitdaten kommen, und
 
 ```jsonc
 {
-  "generatedAt": "2026-11-26T17:59:42.041Z",
+  "generatedAt": "2026-11-26T20:38:11.052Z",
   "asOf": "2026-11-26",
   "venues": [{ "code": "NMS", "name": "Nasdaq Global Select", "country": "United States" }],
   "criteria": { "minMarketCapUsd": 50000000000, "minHistoryYears": 10, "venues": 34 },
-  "stats": { "companies": 407, "listingsScanned": 7456, "companiesBeforeHistoryFilter": 459, "dropped": {} },
+  "stats": { "companies": 401, "listingsScanned": 7428, "companiesBeforeHistoryFilter": 454, "dropped": {} },
   "companies": [
     {
       "rank": 1, "name": "…", "symbol": "AAPL", "exchangeCode": "NMS",
@@ -260,7 +258,7 @@ In `lib/data.ts` legt `RAW_BASE` fest, woher die Laufzeitdaten kommen, und
 
 ```jsonc
 {
-  "generatedAt": "2026-11-26T17:59:42.041Z",
+  "generatedAt": "2026-11-26T20:38:11.052Z",
   "series": { "AAPL": { "s": "2016-11-01", "c": [0, 0] } }
 }
 ```
@@ -269,20 +267,20 @@ In `lib/data.ts` legt `RAW_BASE` fest, woher die Laufzeitdaten kommen, und
 
 ## Aktueller Datenstand
 
-Letzter Screener-Lauf: **26. November 2026, 17:59 UTC**
+Letzter Screener-Lauf: **26. November 2026, 20:38 UTC**
 
 | Kennzahl | Wert |
 | --- | --- |
-| Geprüfte Notierungen | 7.456 |
-| Über 50 Mrd. USD | 459 Unternehmen |
-| Nach Historien- und Heimatbörsenfilter | **407 Unternehmen** |
+| Geprüfte Notierungen | 7.428 |
+| Über 50 Mrd. USD | 454 Unternehmen |
+| Nach Historien- und Heimatbörsenfilter | **401 Unternehmen** |
 | Börsen im Scan | 34 (28 Börsenplätze in der Liste vertreten) |
 | Länder | 27 |
 
-Aussortiert im letzten Lauf: 5.349 unter 50 Mrd. USD, 336 ohne Kursdaten oder
-Marktwert, 253 keine Stammaktie (Fonds, Vorzüge, Anleihen, ADR), 52 unter zehn Jahren
-Historie, 24 nur Zweitnotierung oder Hinterlegungsschein, 2 unplausible Kursdaten,
-1 unbekannter Sitz.
+Aussortiert im letzten Lauf: 5.330 unter 50 Mrd. USD, 335 ohne Kursdaten oder
+Marktwert, 252 keine Stammaktie (Fonds, Vorzüge, Anleihen, ADR), 53 unter zehn Jahren
+Historie, 25 nur Zweitnotierung oder Hinterlegungsschein, 2 unplausible Kursdaten,
+1 unbekannter Sitz. Die Zahlen schwanken mit jedem Lauf um einige Unternehmen.
 
 ## Datenquelle, Grenzen, Rechtliches
 

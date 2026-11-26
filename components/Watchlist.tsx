@@ -107,7 +107,19 @@ export default function Watchlist({ companies }: { companies: Company[] }) {
   function head(key: SortKey, label: string, cls = "") {
     const active = sortKey === key;
     return (
-      <th className={`sortable ${cls}`} onClick={() => sortBy(key)} aria-sort={active ? (sortDir === "asc" ? "ascending" : "descending") : "none"}>
+      <th
+        className={`sortable ${cls}`}
+        onClick={() => sortBy(key)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            sortBy(key);
+          }
+        }}
+        tabIndex={0}
+        role="button"
+        aria-sort={active ? (sortDir === "asc" ? "ascending" : "descending") : "none"}
+      >
         {label}
         {active && <span className="sort-arrow">{sortDir === "asc" ? "▲" : "▼"}</span>}
       </th>

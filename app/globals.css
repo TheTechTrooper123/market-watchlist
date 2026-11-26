@@ -484,6 +484,22 @@ td {
   font-size: 13px;
 }
 
+/* ------------------------------------------------------------------- 404 */
+
+.notfound {
+  padding: 32px 0 8px;
+  max-width: 64ch;
+}
+
+.notfound .detail-title {
+  margin-bottom: 14px;
+}
+
+.notfound .back {
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+
 /* ---------------------------------------------------------- detail page */
 
 .back {
