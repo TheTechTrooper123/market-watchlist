@@ -82,6 +82,7 @@ automatisch:
 app/
   page.tsx            Startseite: Kennzahlen, Hero, Tabelle
   u/[symbol]/page.tsx Detailseite, statisch vorgerendert für alle Symbole
+  not-found.tsx       Deutsche 404-Seite
   layout.tsx, globals.css
 components/
   Watchlist.tsx       Tabelle mit Suche, Filtern, Sortierung, Sparklines
