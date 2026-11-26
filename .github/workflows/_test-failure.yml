@@ -21,7 +21,7 @@ jobs:
         if: failure()
         uses: actions/github-script@v7
         env:
-          TITLE: Test: Fehlermeldung prüfen
+          TITLE: "Test: Fehlermeldung prüfen"
         with:
           script: |
             const title = process.env.TITLE;
