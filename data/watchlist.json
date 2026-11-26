@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T17:47:54.379Z",
+ "generatedAt": "2026-11-26T17:57:56.791Z",
  "asOf": "2026-11-26",
  "venues": [
   {
@@ -179,17 +179,16 @@
   "venues": 34
  },
  "stats": {
-  "companies": 407,
-  "listingsScanned": 7456,
-  "companiesBeforeHistoryFilter": 459,
+  "companies": 401,
+  "listingsScanned": 7431,
+  "companiesBeforeHistoryFilter": 452,
   "dropped": {
-   "unter 50 Mrd. USD": 5349,
+   "unter 50 Mrd. USD": 5332,
    "keine Kursdaten / kein Marktwert": 336,
    "unplausible Kursdaten": 2,
    "keine Stammaktie (Fonds, Vorzüge, Anleihe, ADR)": 253,
    "nur Zweitnotierung / Hinterlegungsschein": 24,
-   "Sitz unbekannt, einzige Notierung": 1,
-   "unter 10 Jahren Historie": 52
+   "unter 10 Jahren Historie": 51
   }
  },
  "companies": [
@@ -1929,7 +1928,7 @@
    "country": "Netherlands",
    "sector": "Technology",
    "industry": "Semiconductor Equipment & Materials",
-   "marketCapUsd": 494008779381,
+   "marketCapUsd": 494143852872,
    "price": 1168.2,
    "currency": "EUR",
    "changePct": 28.47,
@@ -2066,78 +2065,6 @@
    "rank": 26
   },
   {
-   "name": "Agricultural Bank of China Limited",
-   "symbol": "601288.SS",
-   "exchangeCode": "SHH",
-   "exchange": "Shanghai Stock Exchange",
-   "country": "China",
-   "sector": "Financial Services",
-   "industry": "Banks - Diversified",
-   "marketCapUsd": 422152368239,
-   "price": 8.02,
-   "currency": "CNY",
-   "changePct": 1.01,
-   "listingSince": "2010-07-15",
-   "yearsHistory": 16.4,
-   "spark": [
-    8.04,
-    7.82,
-    7.72,
-    7.55,
-    7.51,
-    7.68,
-    7.41,
-    7.21,
-    6.75,
-    6.72,
-    6.67,
-    6.51,
-    6.51,
-    6.4,
-    6.7,
-    6.62,
-    6.76,
-    6.48,
-    6.84,
-    6.59,
-    7.06,
-    7.04,
-    6.92,
-    6.9,
-    6.67,
-    6.46,
-    6.32,
-    6.36,
-    6.8,
-    6.37,
-    6.19,
-    5.9,
-    6.23,
-    6.39,
-    6.66,
-    6.9,
-    6.47,
-    6.47,
-    6.78,
-    6.79,
-    6.96,
-    6.97,
-    6.81,
-    6.87,
-    6.97,
-    6.98,
-    7.24,
-    7.19,
-    7.48,
-    7.28,
-    7.37,
-    7.77,
-    7.96,
-    8.02
-   ],
-   "rank": 27
-  },
-  {
    "name": "The Coca-Cola Company",
    "symbol": "KO",
    "exchangeCode": "NYQ",
@@ -2207,7 +2134,7 @@
     97.59,
     97.59
    ],
-   "rank": 28
+   "rank": 27
   },
   {
    "name": "Chevron Corporation",
@@ -2279,7 +2206,7 @@
     210.95,
     210.95
    ],
-   "rank": 29
+   "rank": 28
   },
   {
    "name": "The Procter & Gamble Company",
@@ -2351,7 +2278,7 @@
     173.23,
     173.23
    ],
-   "rank": 30
+   "rank": 29
   },
   {
    "name": "Roche Holding AG",
@@ -2361,7 +2288,7 @@
    "country": "Switzerland",
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - General",
-   "marketCapUsd": 394383583838,
+   "marketCapUsd": 394449396702,
    "price": 413,
    "currency": "CHF",
    "changePct": 27.16,
@@ -2423,7 +2350,7 @@
     411,
     413
    ],
-   "rank": 31
+   "rank": 30
   },
   {
    "name": "Tencent Holdings Limited",
@@ -2495,7 +2422,7 @@
     337.4,
     341
    ],
-   "rank": 32
+   "rank": 31
   },
   {
    "name": "Cisco Systems, Inc.",
@@ -2567,7 +2494,7 @@
     94.2,
     94.2
    ],
-   "rank": 33
+   "rank": 32
   },
   {
    "name": "Bank of China Limited",
@@ -2639,7 +2566,7 @@
     7.5,
     7.51
    ],
-   "rank": 34
+   "rank": 33
   },
   {
    "name": "The Home Depot, Inc.",
@@ -2711,7 +2638,7 @@
     361.26,
     361.26
    ],
-   "rank": 35
+   "rank": 34
   },
   {
    "name": "PetroChina Company Limited",
@@ -2783,7 +2710,7 @@
     12.3,
     12.76
    ],
-   "rank": 36
+   "rank": 35
   },
   {
    "name": "Merck & Co., Inc.",
@@ -2855,7 +2782,7 @@
     140.29,
     140.29
    ],
-   "rank": 37
+   "rank": 36
   },
   {
    "name": "Bank of America Corporation",
@@ -2927,7 +2854,7 @@
     48.54,
     48.54
    ],
-   "rank": 38
+   "rank": 37
   },
   {
    "name": "GE Aerospace",
@@ -2999,7 +2926,7 @@
     316.98,
     316.98
    ],
-   "rank": 39
+   "rank": 38
   },
   {
    "name": "Oracle Corporation",
@@ -3071,7 +2998,7 @@
     103.88,
     103.88
    ],
-   "rank": 40
+   "rank": 39
   },
   {
    "name": "UnitedHealth Group Incorporated",
@@ -3142,6 +3069,78 @@
     339.85,
     346.19,
     346.19
+   ],
+   "rank": 40
+  },
+  {
+   "name": "Agricultural Bank of China Limited",
+   "symbol": "1288.HK",
+   "exchangeCode": "HKG",
+   "exchange": "Hong Kong Stock Exchange",
+   "country": "China",
+   "sector": "Financial Services",
+   "industry": "Banks - Diversified",
+   "marketCapUsd": 298537652217,
+   "price": 6.685,
+   "currency": "HKD",
+   "changePct": 15.26,
+   "listingSince": "2010-07-16",
+   "yearsHistory": 16.4,
+   "spark": [
+    5.83,
+    5.67,
+    5.55,
+    5.49,
+    5.57,
+    5.83,
+    5.53,
+    5.56,
+    5.32,
+    5.47,
+    5.5,
+    5.41,
+    5.41,
+    5.31,
+    5.25,
+    5.13,
+    5.37,
+    5.38,
+    5.68,
+    5.79,
+    6.05,
+    6.19,
+    6.08,
+    5.94,
+    6.1,
+    5.92,
+    5.77,
+    5.83,
+    6.06,
+    5.67,
+    5.33,
+    5.3,
+    5.49,
+    5.68,
+    5.88,
+    6.31,
+    5.86,
+    5.84,
+    6.28,
+    6.22,
+    6.54,
+    6.36,
+    6.3,
+    6.51,
+    6.46,
+    6.49,
+    6.74,
+    6.58,
+    6.94,
+    6.87,
+    6.87,
+    6.7,
+    6.59,
+    6.68
    ],
    "rank": 41
   },
@@ -3369,7 +3368,7 @@
    "country": "United Kingdom",
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - General",
-   "marketCapUsd": 284750233453,
+   "marketCapUsd": 284815418550,
    "price": 14010,
    "currency": "GBp",
    "changePct": -0.98,
@@ -3441,7 +3440,7 @@
    "country": "United Kingdom",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 278803861635,
+   "marketCapUsd": 278867685487,
    "price": 1245.4,
    "currency": "GBp",
    "changePct": 17,
@@ -3506,78 +3505,6 @@
    "rank": 46
   },
   {
-   "name": "Kweichow Moutai Co., Ltd.",
-   "symbol": "600519.SS",
-   "exchangeCode": "SHH",
-   "exchange": "Shanghai Stock Exchange",
-   "country": "China",
-   "sector": "Consumer Defensive",
-   "industry": "Beverages - Wineries & Distilleries",
-   "marketCapUsd": 276190043360,
-   "price": 1469,
-   "currency": "CNY",
-   "changePct": 1.37,
-   "listingSince": "2001-08-27",
-   "yearsHistory": 25.3,
-   "spark": [
-    1450.5,
-    1430.01,
-    1420.65,
-    1410,
-    1414.13,
-    1377.18,
-    1419.1,
-    1382,
-    1337,
-    1401,
-    1515.01,
-    1485.3,
-    1485.3,
-    1455.02,
-    1402,
-    1413.64,
-    1445,
-    1416.02,
-    1460,
-    1453.96,
-    1407.24,
-    1458.49,
-    1384.79,
-    1372.99,
-    1332.95,
-    1290.2,
-    1326,
-    1272.86,
-    1291.91,
-    1215,
-    1168.63,
-    1194.45,
-    1204.98,
-    1253,
-    1297.41,
-    1350.6,
-    1309.22,
-    1341.99,
-    1272.83,
-    1297.4,
-    1330,
-    1275.16,
-    1257.12,
-    1237,
-    1258.62,
-    1263,
-    1329,
-    1335,
-    1392.05,
-    1453,
-    1435.26,
-    1485.75,
-    1474.84,
-    1469
-   ],
-   "rank": 47
-  },
-  {
    "name": "Nestlé S.A.",
    "symbol": "NESN.SW",
    "exchangeCode": "EBS",
@@ -3585,7 +3512,7 @@
    "country": "Switzerland",
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "marketCapUsd": 270207912690,
+   "marketCapUsd": 270253003706,
    "price": 87.65,
    "currency": "CHF",
    "changePct": 10.14,
@@ -3647,7 +3574,7 @@
     87.15,
     87.65
    ],
-   "rank": 48
+   "rank": 47
   },
   {
    "name": "Shell plc",
@@ -3657,7 +3584,7 @@
    "country": "United Kingdom",
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "marketCapUsd": 267663749095,
+   "marketCapUsd": 267725022750,
    "price": 3623.5,
    "currency": "GBp",
    "changePct": 30.98,
@@ -3719,7 +3646,7 @@
     3555.5,
     3623.5
    ],
-   "rank": 49
+   "rank": 48
   },
   {
    "name": "RTX Corporation",
@@ -3791,7 +3718,7 @@
     196.19,
     196.19
    ],
-   "rank": 50
+   "rank": 49
   },
   {
    "name": "Morgan Stanley",
@@ -3863,7 +3790,7 @@
     167.55,
     167.55
    ],
-   "rank": 51
+   "rank": 50
   },
   {
    "name": "Royal Bank of Canada",
@@ -3873,10 +3800,10 @@
    "country": "Canada",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 261275777925,
-   "price": 268.8,
+   "marketCapUsd": 261157491914,
+   "price": 268.64,
    "currency": "CAD",
-   "changePct": 24.99,
+   "changePct": 24.91,
    "listingSince": "1995-01-12",
    "yearsHistory": 31.9,
    "spark": [
@@ -3933,9 +3860,9 @@
     288.37,
     263.05,
     269.26,
-    268.8
+    268.64
    ],
-   "rank": 52
+   "rank": 51
   },
   {
    "name": "L'Oréal S.A.",
@@ -3945,7 +3872,7 @@
    "country": "France",
    "sector": "Consumer Defensive",
    "industry": "Household & Personal Products",
-   "marketCapUsd": 260480940920,
+   "marketCapUsd": 260552162468,
    "price": 445.15,
    "currency": "EUR",
    "changePct": 19.06,
@@ -4007,7 +3934,7 @@
     442,
     445.15
    ],
-   "rank": 53
+   "rank": 52
   },
   {
    "name": "Thermo Fisher Scientific Inc.",
@@ -4079,7 +4006,7 @@
     685.52,
     685.52
    ],
-   "rank": 54
+   "rank": 53
   },
   {
    "name": "Amgen Inc.",
@@ -4151,7 +4078,7 @@
     469.24,
     469.24
    ],
-   "rank": 55
+   "rank": 54
   },
   {
    "name": "Toyota Motor Corporation",
@@ -4223,7 +4150,7 @@
     3406,
     3377
    ],
-   "rank": 56
+   "rank": 55
   },
   {
    "name": "Caterpillar Inc.",
@@ -4295,7 +4222,7 @@
     543.69,
     543.69
    ],
-   "rank": 57
+   "rank": 56
   },
   {
    "name": "Applied Materials, Inc.",
@@ -4367,7 +4294,7 @@
     311.18,
     311.18
    ],
-   "rank": 58
+   "rank": 57
   },
   {
    "name": "Texas Instruments Incorporated",
@@ -4439,7 +4366,7 @@
     270.19,
     270.19
    ],
-   "rank": 59
+   "rank": 58
   },
   {
    "name": "SAP SE",
@@ -4449,7 +4376,7 @@
    "country": "Germany",
    "sector": "Technology",
    "industry": "Software - Application",
-   "marketCapUsd": 245857523361,
+   "marketCapUsd": 245924746527,
    "price": 194.14,
    "currency": "EUR",
    "changePct": -6.08,
@@ -4511,7 +4438,7 @@
     189.82,
     194.14
    ],
-   "rank": 60
+   "rank": 59
   },
   {
    "name": "Netflix, Inc.",
@@ -4583,7 +4510,7 @@
     59.41,
     59.41
    ],
-   "rank": 61
+   "rank": 60
   },
   {
    "name": "Wells Fargo & Company",
@@ -4655,7 +4582,7 @@
     80.94,
     80.94
    ],
-   "rank": 62
+   "rank": 61
   },
   {
    "name": "Lam Research Corporation",
@@ -4727,7 +4654,7 @@
     185.01,
     185.01
    ],
-   "rank": 63
+   "rank": 62
   },
   {
    "name": "The Goldman Sachs Group, Inc.",
@@ -4799,7 +4726,7 @@
     801.03,
     801.03
    ],
-   "rank": 64
+   "rank": 63
   },
   {
    "name": "International Business Machines Corporation",
@@ -4871,7 +4798,7 @@
     243.47,
     243.47
    ],
-   "rank": 65
+   "rank": 64
   },
   {
    "name": "Mitsubishi UFJ Financial Group, Inc.",
@@ -4943,7 +4870,7 @@
     3122,
     3118
    ],
-   "rank": 66
+   "rank": 65
   },
   {
    "name": "Gilead Sciences, Inc.",
@@ -5015,7 +4942,7 @@
     176.74,
     176.74
    ],
-   "rank": 67
+   "rank": 66
   },
   {
    "name": "LVMH Moët Hennessy - Louis Vuitton, Société Européenne",
@@ -5025,7 +4952,7 @@
    "country": "France",
    "sector": "Consumer Cyclical",
    "industry": "Luxury Goods",
-   "marketCapUsd": 215892993468,
+   "marketCapUsd": 215952023634,
    "price": 401.05,
    "currency": "EUR",
    "changePct": -35.87,
@@ -5087,7 +5014,7 @@
     391,
     401.05
    ],
-   "rank": 68
+   "rank": 67
   },
   {
    "name": "The Walt Disney Company",
@@ -5159,7 +5086,7 @@
     125.6,
     125.6
    ],
-   "rank": 69
+   "rank": 68
   },
   {
    "name": "Siemens Aktiengesellschaft",
@@ -5169,7 +5096,7 @@
    "country": "Germany",
    "sector": "Industrials",
    "industry": "Specialty Industrial Machinery",
-   "marketCapUsd": 209875675369,
+   "marketCapUsd": 209933060260,
    "price": 250.3,
    "currency": "EUR",
    "changePct": 9.73,
@@ -5231,7 +5158,7 @@
     245.5,
     250.3
    ],
-   "rank": 70
+   "rank": 69
   },
   {
    "name": "American Express Company",
@@ -5303,7 +5230,7 @@
     312.39,
     312.39
    ],
-   "rank": 71
+   "rank": 70
   },
   {
    "name": "Arista Networks, Inc.",
@@ -5375,79 +5302,7 @@
     163.99,
     163.99
    ],
-   "rank": 72
-  },
-  {
-   "name": "Reliance Industries Limited",
-   "symbol": "RELIANCE.NS",
-   "exchangeCode": "NSI",
-   "exchange": "National Stock Exchange of India",
-   "country": "India",
-   "sector": "Energy",
-   "industry": "Oil & Gas Refining & Marketing",
-   "marketCapUsd": 204055601637,
-   "price": 1396.2,
-   "currency": "INR",
-   "changePct": -11.06,
-   "listingSince": "1996-01-01",
-   "yearsHistory": 30.9,
-   "spark": [
-    1567.5,
-    1540.6,
-    1556.5,
-    1565.1,
-    1559.2,
-    1592.3,
-    1475.3,
-    1457.9,
-    1386.1,
-    1347,
-    1450.8,
-    1419.6,
-    1419.4,
-    1393.9,
-    1404.8,
-    1380.7,
-    1414.4,
-    1348.1,
-    1350.5,
-    1350.2,
-    1365,
-    1327.8,
-    1430.8,
-    1435.2,
-    1336.4,
-    1354.5,
-    1321.2,
-    1291,
-    1293,
-    1309.5,
-    1318.1,
-    1304,
-    1307.8,
-    1327.2,
-    1278,
-    1307.8,
-    1334.8,
-    1310,
-    1316,
-    1287,
-    1322,
-    1257.5,
-    1226.4,
-    1226,
-    1167.7,
-    1170.3,
-    1211.2,
-    1190,
-    1164.9,
-    1324,
-    1339.7,
-    1377.5,
-    1373.9,
-    1396.2
-   ],
-   "rank": 73
+   "rank": 71
   },
   {
    "name": "Industria de Diseño Textil, S.A.",
@@ -5457,7 +5312,7 @@
    "country": "Spain",
    "sector": "Consumer Cyclical",
    "industry": "Apparel Retail",
-   "marketCapUsd": 200350741797,
+   "marketCapUsd": 200405522350,
    "price": 58.62,
    "currency": "EUR",
    "changePct": 22,
@@ -5519,7 +5374,7 @@
     57.46,
     58.62
    ],
-   "rank": 74
+   "rank": 72
   },
   {
    "name": "McDonald's Corporation",
@@ -5591,7 +5446,7 @@
     283.5,
     283.5
    ],
-   "rank": 75
+   "rank": 73
   },
   {
    "name": "PepsiCo, Inc.",
@@ -5663,7 +5518,7 @@
     143.93,
     143.93
    ],
-   "rank": 76
+   "rank": 74
   },
   {
    "name": "Verizon Communications Inc.",
@@ -5735,7 +5590,7 @@
     47.28,
     47.28
    ],
-   "rank": 77
+   "rank": 75
   },
   {
    "name": "The Toronto-Dominion Bank",
@@ -5745,10 +5600,10 @@
    "country": "Canada",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 190337264047,
-   "price": 166,
+   "marketCapUsd": 190284115958,
+   "price": 165.94,
    "currency": "CAD",
-   "changePct": 41.7,
+   "changePct": 41.65,
    "listingSince": "1995-01-12",
    "yearsHistory": 31.9,
    "spark": [
@@ -5805,9 +5660,9 @@
     176.42,
     162.05,
     164.71,
-    166
+    165.94
    ],
-   "rank": 78
+   "rank": 76
   },
   {
    "name": "Dell Technologies Inc.",
@@ -5879,7 +5734,7 @@
     297.06,
     297.06
    ],
-   "rank": 79
+   "rank": 77
   },
   {
    "name": "Allianz SE",
@@ -5889,7 +5744,7 @@
    "country": "Germany",
    "sector": "Financial Services",
    "industry": "Insurance - Diversified",
-   "marketCapUsd": 188513164263,
+   "marketCapUsd": 188564708147,
    "price": 459.4,
    "currency": "EUR",
    "changePct": 23.03,
@@ -5951,7 +5806,7 @@
     453.5,
     459.4
    ],
-   "rank": 80
+   "rank": 78
   },
   {
    "name": "Commonwealth Bank of Australia",
@@ -5961,7 +5816,7 @@
    "country": "Australia",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 188510849493,
+   "marketCapUsd": 188539273927,
    "price": 169.99,
    "currency": "AUD",
    "changePct": 10.73,
@@ -6023,7 +5878,7 @@
     169.66,
     169.99
    ],
-   "rank": 81
+   "rank": 79
   },
   {
    "name": "TotalEnergies SE",
@@ -6033,7 +5888,7 @@
    "country": "France",
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "marketCapUsd": 188338108865,
+   "marketCapUsd": 188389604884,
    "price": 78.36,
    "currency": "EUR",
    "changePct": 38.3,
@@ -6095,7 +5950,7 @@
     77.28,
     78.36
    ],
-   "rank": 82
+   "rank": 80
   },
   {
    "name": "Citigroup Inc.",
@@ -6167,7 +6022,7 @@
     113.33,
     113.33
    ],
-   "rank": 83
+   "rank": 81
   },
   {
    "name": "Abbott Laboratories",
@@ -6239,7 +6094,7 @@
     108,
     108
    ],
-   "rank": 84
+   "rank": 82
   },
   {
    "name": "BHP Group Limited",
@@ -6249,7 +6104,7 @@
    "country": "Australia",
    "sector": "Basic Materials",
    "industry": "Other Industrial Metals & Mining",
-   "marketCapUsd": 182001096629,
+   "marketCapUsd": 182028539496,
    "price": 53.99,
    "currency": "AUD",
    "changePct": 29.1,
@@ -6311,7 +6166,7 @@
     52.22,
     53.99
    ],
-   "rank": 85
+   "rank": 83
   },
   {
    "name": "Welltower Inc.",
@@ -6383,7 +6238,7 @@
     246.18,
     246.18
    ],
-   "rank": 86
+   "rank": 84
   },
   {
    "name": "QUALCOMM Incorporated",
@@ -6455,7 +6310,7 @@
     168.66,
     168.66
    ],
-   "rank": 87
+   "rank": 85
   },
   {
    "name": "Amphenol Corporation",
@@ -6527,7 +6382,7 @@
     73.08,
     73.08
    ],
-   "rank": 88
+   "rank": 86
   },
   {
    "name": "MediaTek Inc.",
@@ -6599,7 +6454,7 @@
     3645,
     3705
    ],
-   "rank": 89
+   "rank": 87
   },
   {
    "name": "Novo Nordisk A/S",
@@ -6671,7 +6526,7 @@
     274.3,
     277.25
    ],
-   "rank": 90
+   "rank": 88
   },
   {
    "name": "NextEra Energy, Inc.",
@@ -6743,7 +6598,7 @@
     85.41,
     85.41
    ],
-   "rank": 91
+   "rank": 89
   },
   {
    "name": "Union Pacific Corporation",
@@ -6815,7 +6670,7 @@
     298.38,
     298.38
    ],
-   "rank": 92
+   "rank": 90
   },
   {
    "name": "BlackRock, Inc.",
@@ -6887,7 +6742,7 @@
     1141.86,
     1141.86
    ],
-   "rank": 93
+   "rank": 91
   },
   {
    "name": "T-Mobile US, Inc.",
@@ -6959,7 +6814,7 @@
     166.25,
     166.25
    ],
-   "rank": 94
+   "rank": 92
   },
   {
    "name": "KLA Corporation",
@@ -7031,7 +6886,7 @@
     134.2,
     134.2
    ],
-   "rank": 95
+   "rank": 93
   },
   {
    "name": "Shopify Inc.",
@@ -7041,10 +6896,10 @@
    "country": "Canada",
    "sector": "Technology",
    "industry": "Software - Application",
-   "marketCapUsd": 173526639259,
-   "price": 192.18,
+   "marketCapUsd": 173470049894,
+   "price": 191.95,
    "currency": "CAD",
-   "changePct": -14.16,
+   "changePct": -14.26,
    "listingSince": "2015-05-21",
    "yearsHistory": 11.5,
    "spark": [
@@ -7101,9 +6956,9 @@
     209.74,
     177.09,
     189.67,
-    192.18
+    191.95
    ],
-   "rank": 96
+   "rank": 94
   },
   {
    "name": "China Shenhua Energy Company Limited",
@@ -7175,7 +7030,7 @@
     51.82,
     53
    ],
-   "rank": 97
+   "rank": 95
   },
   {
    "name": "Deere & Company",
@@ -7247,7 +7102,7 @@
     641.02,
     641.02
    ],
-   "rank": 98
+   "rank": 96
   },
   {
    "name": "China Merchants Bank Co., Ltd.",
@@ -7319,7 +7174,7 @@
     52.8,
     53.35
    ],
-   "rank": 99
+   "rank": 97
   },
   {
    "name": "Iberdrola, S.A.",
@@ -7329,7 +7184,7 @@
    "country": "Spain",
    "sector": "Utilities",
    "industry": "Utilities - Diversified",
-   "marketCapUsd": 167736058688,
+   "marketCapUsd": 167781921628,
    "price": 23.03,
    "currency": "EUR",
    "changePct": 26.05,
@@ -7391,7 +7246,7 @@
     22.72,
     23.03
    ],
-   "rank": 100
+   "rank": 98
   },
   {
    "name": "Fast Retailing Co., Ltd.",
@@ -7463,7 +7318,7 @@
     86170,
     85500
    ],
-   "rank": 101
+   "rank": 99
   },
   {
    "name": "Banco Santander, S.A.",
@@ -7473,7 +7328,7 @@
    "country": "Spain",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 165016102627,
+   "marketCapUsd": 165061221868,
    "price": 10.44,
    "currency": "EUR",
    "changePct": 13.32,
@@ -7535,7 +7390,7 @@
     10.03,
     10.44
    ],
-   "rank": 102
+   "rank": 100
   },
   {
    "name": "Sony Group Corporation",
@@ -7607,7 +7462,7 @@
     4513,
     4448
    ],
-   "rank": 103
+   "rank": 101
   },
   {
    "name": "Salesforce, Inc.",
@@ -7679,7 +7534,7 @@
     197.21,
     197.21
    ],
-   "rank": 104
+   "rank": 102
   },
   {
    "name": "Pfizer Inc.",
@@ -7751,7 +7606,7 @@
     28.46,
     28.46
    ],
-   "rank": 105
+   "rank": 103
   },
   {
    "name": "The TJX Companies, Inc.",
@@ -7823,7 +7678,7 @@
     146.09,
     146.09
    ],
-   "rank": 106
+   "rank": 104
   },
   {
    "name": "The Charles Schwab Corporation",
@@ -7895,7 +7750,7 @@
     93.45,
     93.45
    ],
-   "rank": 107
+   "rank": 105
   },
   {
    "name": "Analog Devices, Inc.",
@@ -7967,7 +7822,7 @@
     333.11,
     333.11
    ],
-   "rank": 108
+   "rank": 106
   },
   {
    "name": "Danaher Corporation",
@@ -8039,7 +7894,7 @@
     227.35,
     227.35
    ],
-   "rank": 109
+   "rank": 107
   },
   {
    "name": "ConocoPhillips",
@@ -8111,7 +7966,7 @@
     135.02,
     135.02
    ],
-   "rank": 110
+   "rank": 108
   },
   {
    "name": "AT&T Inc.",
@@ -8183,7 +8038,7 @@
     22.97,
     22.97
    ],
-   "rank": 111
+   "rank": 109
   },
   {
    "name": "Anheuser-Busch InBev SA/NV",
@@ -8193,7 +8048,7 @@
    "country": "Belgium",
    "sector": "Consumer Defensive",
    "industry": "Beverages - Brewers",
-   "marketCapUsd": 154391347292,
+   "marketCapUsd": 154433561477,
    "price": 71.46,
    "currency": "EUR",
    "changePct": 33.77,
@@ -8255,7 +8110,7 @@
     72.66,
     71.46
    ],
-   "rank": 112
+   "rank": 110
   },
   {
    "name": "Recruit Holdings Co., Ltd.",
@@ -8327,79 +8182,7 @@
     17020,
     17245
    ],
-   "rank": 113
-  },
-  {
-   "name": "Ping An Insurance (Group) Company of China, Ltd.",
-   "symbol": "601318.SS",
-   "exchangeCode": "SHH",
-   "exchange": "Shanghai Stock Exchange",
-   "country": "China",
-   "sector": "Financial Services",
-   "industry": "Insurance - Life",
-   "marketCapUsd": 148642594606,
-   "price": 54.58,
-   "currency": "CNY",
-   "changePct": -8.7,
-   "listingSince": "2007-03-01",
-   "yearsHistory": 19.7,
-   "spark": [
-    58.99,
-    61.99,
-    63.91,
-    68.75,
-    71.16,
-    68.4,
-    69,
-    66.33,
-    63.9,
-    66.75,
-    66.9,
-    65.29,
-    65.29,
-    63.09,
-    62.67,
-    61.2,
-    59.74,
-    56.95,
-    57.25,
-    58.82,
-    57.92,
-    57.78,
-    59.37,
-    60.06,
-    55.5,
-    53.68,
-    53.5,
-    53.48,
-    54.01,
-    49.38,
-    47.23,
-    49.09,
-    49.48,
-    50.7,
-    54.02,
-    54.9,
-    53.38,
-    51.75,
-    53.35,
-    55.85,
-    58.24,
-    54.83,
-    53.37,
-    53.25,
-    53.29,
-    52.83,
-    51.88,
-    51.76,
-    52.8,
-    54.5,
-    53.8,
-    55.46,
-    54.88,
-    54.58
-   ],
-   "rank": 114
+   "rank": 111
   },
   {
    "name": "China Life Insurance Company Limited",
@@ -8471,7 +8254,7 @@
     35.1,
     34.95
    ],
-   "rank": 115
+   "rank": 112
   },
   {
    "name": "Intuitive Surgical, Inc.",
@@ -8543,7 +8326,7 @@
     427.18,
     427.18
    ],
-   "rank": 116
+   "rank": 113
   },
   {
    "name": "Blackstone Inc.",
@@ -8615,7 +8398,7 @@
     118.95,
     118.95
    ],
-   "rank": 117
+   "rank": 114
   },
   {
    "name": "Hermès International Société en commandite par actions",
@@ -8625,7 +8408,7 @@
    "country": "France",
    "sector": "Consumer Cyclical",
    "industry": "Luxury Goods",
-   "marketCapUsd": 146045323205,
+   "marketCapUsd": 146085255393,
    "price": 1272.5,
    "currency": "EUR",
    "changePct": -40.84,
@@ -8687,7 +8470,7 @@
     1252,
     1272.5
    ],
-   "rank": 118
+   "rank": 115
   },
   {
    "name": "DBS Group Holdings Ltd",
@@ -8697,7 +8480,7 @@
    "country": "Singapore",
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "marketCapUsd": 145102550198,
+   "marketCapUsd": 145121277941,
    "price": 65.85,
    "currency": "SGD",
    "changePct": 22.31,
@@ -8759,7 +8542,7 @@
     65.44,
     65.85
    ],
-   "rank": 119
+   "rank": 116
   },
   {
    "name": "HDFC Bank Limited",
@@ -8831,7 +8614,7 @@
     846.2,
     862
    ],
-   "rank": 120
+   "rank": 117
   },
   {
    "name": "Vertex Pharmaceuticals Incorporated",
@@ -8903,7 +8686,7 @@
     564.12,
     564.12
    ],
-   "rank": 121
+   "rank": 118
   },
   {
    "name": "Unilever PLC",
@@ -8913,7 +8696,7 @@
    "country": "United Kingdom",
    "sector": "Consumer Defensive",
    "industry": "Household & Personal Products",
-   "marketCapUsd": 142849008288,
+   "marketCapUsd": 142881709320,
    "price": 5062,
    "currency": "GBp",
    "changePct": 4.69,
@@ -8975,7 +8758,7 @@
     5067,
     5062
    ],
-   "rank": 122
+   "rank": 119
   },
   {
    "name": "Deutsche Telekom AG",
@@ -8985,7 +8768,7 @@
    "country": "Germany",
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "marketCapUsd": 142469082350,
+   "marketCapUsd": 142508036710,
    "price": 27.15,
    "currency": "EUR",
    "changePct": -1.81,
@@ -9047,7 +8830,7 @@
     26.83,
     27.15
    ],
-   "rank": 123
+   "rank": 120
   },
   {
    "name": "Sumitomo Mitsui Financial Group, Inc.",
@@ -9119,7 +8902,7 @@
     2991,
     2980
    ],
-   "rank": 124
+   "rank": 121
   },
   {
    "name": "Accenture plc",
@@ -9191,7 +8974,7 @@
     240.49,
     240.49
    ],
-   "rank": 125
+   "rank": 122
   },
   {
    "name": "Bharti Airtel Limited",
@@ -9263,7 +9046,7 @@
     2117.5,
     2102.5
    ],
-   "rank": 126
+   "rank": 123
   },
   {
    "name": "Schneider Electric S.E.",
@@ -9273,7 +9056,7 @@
    "country": "France",
    "sector": "Industrials",
    "industry": "Specialty Industrial Machinery",
-   "marketCapUsd": 141232728880,
+   "marketCapUsd": 141271345193,
    "price": 219.05,
    "currency": "EUR",
    "changePct": -3.63,
@@ -9335,7 +9118,7 @@
     216.65,
     219.05
    ],
-   "rank": 127
+   "rank": 124
   },
   {
    "name": "Hitachi, Ltd.",
@@ -9407,7 +9190,7 @@
     4959,
     5012
    ],
-   "rank": 128
+   "rank": 125
   },
   {
    "name": "Rolls-Royce Holdings plc",
@@ -9417,7 +9200,7 @@
    "country": "United Kingdom",
    "sector": "Industrials",
    "industry": "Aerospace & Defense",
-   "marketCapUsd": 138583436718,
+   "marketCapUsd": 138615161274,
    "price": 1294.4,
    "currency": "GBp",
    "changePct": 22.34,
@@ -9479,7 +9262,7 @@
     1251.2,
     1294.4
    ],
-   "rank": 129
+   "rank": 126
   },
   {
    "name": "Lockheed Martin Corporation",
@@ -9551,7 +9334,7 @@
     599.24,
     599.24
    ],
-   "rank": 130
+   "rank": 127
   },
   {
    "name": "The Progressive Corporation",
@@ -9623,7 +9406,7 @@
     238.7,
     238.7
    ],
-   "rank": 131
+   "rank": 128
   },
   {
    "name": "UBS Group AG",
@@ -9633,7 +9416,7 @@
    "country": "Switzerland",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 136300008567,
+   "marketCapUsd": 136322753666,
    "price": 37.53,
    "currency": "CHF",
    "changePct": 22.53,
@@ -9695,7 +9478,7 @@
     36.8,
     37.53
    ],
-   "rank": 132
+   "rank": 129
   },
   {
    "name": "Safran SA",
@@ -9705,7 +9488,7 @@
    "country": "France",
    "sector": "Industrials",
    "industry": "Aerospace & Defense",
-   "marketCapUsd": 135631549353,
+   "marketCapUsd": 135668634173,
    "price": 299.2,
    "currency": "EUR",
    "changePct": 3.49,
@@ -9767,7 +9550,7 @@
     290.9,
     299.2
    ],
-   "rank": 133
+   "rank": 130
   },
   {
    "name": "S&P Global Inc.",
@@ -9839,7 +9622,7 @@
     460.74,
     460.74
    ],
-   "rank": 134
+   "rank": 131
   },
   {
    "name": "L'Air Liquide S.A.",
@@ -9849,7 +9632,7 @@
    "country": "France",
    "sector": "Basic Materials",
    "industry": "Specialty Chemicals",
-   "marketCapUsd": 133261793971,
+   "marketCapUsd": 133298230845,
    "price": 190.32,
    "currency": "EUR",
    "changePct": 26.88,
@@ -9911,7 +9694,7 @@
     188.46,
     190.32
    ],
-   "rank": 135
+   "rank": 132
   },
   {
    "name": "Lowe's Companies, Inc.",
@@ -9983,7 +9766,7 @@
     235.65,
     235.65
    ],
-   "rank": 136
+   "rank": 133
   },
   {
    "name": "Banco Bilbao Vizcaya Argentaria, S.A.",
@@ -9993,7 +9776,7 @@
    "country": "Spain",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 130834738417,
+   "marketCapUsd": 130870511677,
    "price": 21.86,
    "currency": "EUR",
    "changePct": 17.53,
@@ -10055,7 +9838,7 @@
     21.28,
     21.86
    ],
-   "rank": 137
+   "rank": 134
   },
   {
    "name": "The Boeing Company",
@@ -10127,7 +9910,7 @@
     164.53,
     164.53
    ],
-   "rank": 138
+   "rank": 135
   },
   {
    "name": "Sanofi",
@@ -10137,7 +9920,7 @@
    "country": "France",
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - General",
-   "marketCapUsd": 130189282306,
+   "marketCapUsd": 130224879084,
    "price": 98.83,
    "currency": "EUR",
    "changePct": 14.61,
@@ -10199,7 +9982,7 @@
     98.16,
     98.83
    ],
-   "rank": 139
+   "rank": 136
   },
   {
    "name": "British American Tobacco p.l.c.",
@@ -10209,7 +9992,7 @@
    "country": "United Kingdom",
    "sector": "Consumer Defensive",
    "industry": "Tobacco",
-   "marketCapUsd": 127475412935,
+   "marketCapUsd": 127504594639,
    "price": 4531,
    "currency": "GBp",
    "changePct": 3.99,
@@ -10271,7 +10054,7 @@
     4556,
     4531
    ],
-   "rank": 140
+   "rank": 137
   },
   {
    "name": "Altria Group, Inc.",
@@ -10343,7 +10126,7 @@
     76.28,
     76.28
    ],
-   "rank": 141
+   "rank": 138
   },
   {
    "name": "Stryker Corporation",
@@ -10415,7 +10198,7 @@
     332.9,
     332.9
    ],
-   "rank": 142
+   "rank": 139
   },
   {
    "name": "Bristol-Myers Squibb Company",
@@ -10487,7 +10270,7 @@
     61.56,
     61.56
    ],
-   "rank": 143
+   "rank": 140
   },
   {
    "name": "Investor AB (publ)",
@@ -10559,7 +10342,7 @@
     412,
     417.45
    ],
-   "rank": 144
+   "rank": 141
   },
   {
    "name": "Automatic Data Processing, Inc.",
@@ -10631,7 +10414,7 @@
     316.72,
     316.72
    ],
-   "rank": 145
+   "rank": 142
   },
   {
    "name": "ICICI Bank Limited",
@@ -10703,7 +10486,7 @@
     1640,
     1611
    ],
-   "rank": 146
+   "rank": 143
   },
   {
    "name": "McKesson Corporation",
@@ -10775,7 +10558,7 @@
     1077.32,
     1077.32
    ],
-   "rank": 147
+   "rank": 144
   },
   {
    "name": "Prologis, Inc.",
@@ -10847,7 +10630,7 @@
     127.03,
     127.03
    ],
-   "rank": 148
+   "rank": 145
   },
   {
    "name": "Eaton Corporation plc",
@@ -10919,7 +10702,7 @@
     317.81,
     317.81
    ],
-   "rank": 149
+   "rank": 146
   },
   {
    "name": "Bank of Communications Co., Ltd.",
@@ -10991,7 +10774,7 @@
     9.14,
     9.27
    ],
-   "rank": 150
+   "rank": 147
   },
   {
    "name": "Medtronic plc",
@@ -11063,7 +10846,7 @@
     96.06,
     96.06
    ],
-   "rank": 151
+   "rank": 148
   },
   {
    "name": "Starbucks Corporation",
@@ -11135,7 +10918,7 @@
     107.74,
     107.74
    ],
-   "rank": 152
+   "rank": 149
   },
   {
    "name": "UniCredit S.p.A.",
@@ -11145,7 +10928,7 @@
    "country": "Italy",
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "marketCapUsd": 121402743479,
+   "marketCapUsd": 121435937812,
    "price": 73.85,
    "currency": "EUR",
    "changePct": 15.7,
@@ -11207,7 +10990,7 @@
     73.21,
     73.85
    ],
-   "rank": 153
+   "rank": 150
   },
   {
    "name": "Compagnie Financière Richemont SA",
@@ -11217,7 +11000,7 @@
    "country": "Switzerland",
    "sector": "Consumer Cyclical",
    "industry": "Luxury Goods",
-   "marketCapUsd": 121163955474,
+   "marketCapUsd": 121184174741,
    "price": 171.95,
    "currency": "CHF",
    "changePct": 1.27,
@@ -11279,7 +11062,7 @@
     168.4,
     171.95
    ],
-   "rank": 154
+   "rank": 151
   },
   {
    "name": "Southern Copper Corporation",
@@ -11351,7 +11134,7 @@
     140.99,
     140.99
    ],
-   "rank": 155
+   "rank": 152
   },
   {
    "name": "Rio Tinto Group",
@@ -11361,7 +11144,7 @@
    "country": "United Kingdom",
    "sector": "Basic Materials",
    "industry": "Other Industrial Metals & Mining",
-   "marketCapUsd": 120004841300,
+   "marketCapUsd": 120032312839,
    "price": 5630,
    "currency": "GBp",
    "changePct": 3.09,
@@ -11423,7 +11206,7 @@
     5527,
     5630
    ],
-   "rank": 156
+   "rank": 153
   },
   {
    "name": "Marvell Technology, Inc.",
@@ -11495,7 +11278,7 @@
     130.93,
     130.93
    ],
-   "rank": 157
+   "rank": 154
   },
   {
    "name": "China Yangtze Power Co., Ltd.",
@@ -11567,7 +11350,7 @@
     31.96,
     31.8
    ],
-   "rank": 158
+   "rank": 155
   },
   {
    "name": "Mitsubishi Corporation",
@@ -11639,7 +11422,79 @@
     5037,
     5050
    ],
-   "rank": 159
+   "rank": 156
+  },
+  {
+   "name": "Ping An Insurance (Group) Company of China, Ltd.",
+   "symbol": "2318.HK",
+   "exchangeCode": "HKG",
+   "exchange": "Hong Kong Stock Exchange",
+   "country": "China",
+   "sector": "Financial Services",
+   "industry": "Insurance - Life",
+   "marketCapUsd": 116104392606,
+   "price": 50.25,
+   "currency": "HKD",
+   "changePct": -12.38,
+   "listingSince": "2004-06-24",
+   "yearsHistory": 22.4,
+   "spark": [
+    56.7,
+    60.45,
+    63.75,
+    65.45,
+    66.4,
+    66.8,
+    70,
+    68.65,
+    67,
+    72.7,
+    69.6,
+    70.35,
+    70.55,
+    68,
+    64.65,
+    62.25,
+    61.75,
+    59.3,
+    60.2,
+    62.75,
+    60.6,
+    60.95,
+    63,
+    65.6,
+    62.45,
+    60.85,
+    60.05,
+    56.9,
+    57.15,
+    53.85,
+    50.55,
+    52.05,
+    53.05,
+    54.6,
+    56.9,
+    58.65,
+    57.15,
+    54.6,
+    56.2,
+    56.9,
+    57.15,
+    54,
+    53.2,
+    52.7,
+    52,
+    51.85,
+    50.05,
+    49.02,
+    49.74,
+    53.15,
+    51.6,
+    49.7,
+    50.05,
+    50.25
+   ],
+   "rank": 157
   },
   {
    "name": "Zurich Insurance Group AG",
@@ -11649,7 +11504,7 @@
    "country": "Switzerland",
    "sector": "Financial Services",
    "industry": "Insurance - Diversified",
-   "marketCapUsd": 115503097184,
+   "marketCapUsd": 115522371794,
    "price": 645.2,
    "currency": "CHF",
    "changePct": 12.33,
@@ -11711,7 +11566,7 @@
     637.4,
     645.2
    ],
-   "rank": 160
+   "rank": 158
   },
   {
    "name": "State Bank of India",
@@ -11783,7 +11638,7 @@
     1138.15,
     1136.65
    ],
-   "rank": 161
+   "rank": 159
   },
   {
    "name": "Parker-Hannifin Corporation",
@@ -11855,7 +11710,7 @@
     897.9,
     897.9
    ],
-   "rank": 162
+   "rank": 160
   },
   {
    "name": "Advantest Corporation",
@@ -11927,7 +11782,7 @@
     23745,
     24830
    ],
-   "rank": 163
+   "rank": 161
   },
   {
    "name": "Tokyo Electron Limited",
@@ -11999,7 +11854,7 @@
     7825,
     7871
    ],
-   "rank": 164
+   "rank": 162
   },
   {
    "name": "Mizuho Financial Group, Inc.",
@@ -12071,7 +11926,7 @@
     7425,
     7375
    ],
-   "rank": 165
+   "rank": 163
   },
   {
    "name": "BP p.l.c.",
@@ -12081,7 +11936,7 @@
    "country": "United Kingdom",
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "marketCapUsd": 111732233265,
+   "marketCapUsd": 111757811037,
    "price": 551.7,
    "currency": "GBp",
    "changePct": 21.87,
@@ -12143,7 +11998,7 @@
     545.2,
     551.7
    ],
-   "rank": 166
+   "rank": 164
   },
   {
    "name": "CME Group Inc.",
@@ -12215,7 +12070,7 @@
     311.74,
     311.74
    ],
-   "rank": 167
+   "rank": 165
   },
   {
    "name": "Booking Holdings Inc.",
@@ -12287,7 +12142,7 @@
     149.5,
     149.5
    ],
-   "rank": 168
+   "rank": 166
   },
   {
    "name": "Bank of Montreal",
@@ -12297,10 +12152,10 @@
    "country": "Canada",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 110981600975,
-   "price": 227.41,
+   "marketCapUsd": 110890021847,
+   "price": 227.26,
    "currency": "CAD",
-   "changePct": 29.16,
+   "changePct": 29.07,
    "listingSince": "1995-01-12",
    "yearsHistory": 31.9,
    "spark": [
@@ -12357,9 +12212,9 @@
     247.02,
     224.49,
     227.58,
-    227.41
+    227.26
    ],
-   "rank": 169
+   "rank": 167
   },
   {
    "name": "The Southern Company",
@@ -12431,7 +12286,7 @@
     95,
     95
    ],
-   "rank": 170
+   "rank": 168
   },
   {
    "name": "Capital One Financial Corporation",
@@ -12503,7 +12358,7 @@
     182.52,
     182.52
    ],
-   "rank": 171
+   "rank": 169
   },
   {
    "name": "Keyence Corporation",
@@ -12575,7 +12430,7 @@
     14655,
     14310
    ],
-   "rank": 172
+   "rank": 170
   },
   {
    "name": "BNP Paribas SA",
@@ -12585,7 +12440,7 @@
    "country": "France",
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "marketCapUsd": 108997431339,
+   "marketCapUsd": 109027233772,
    "price": 90.64,
    "currency": "EUR",
    "changePct": 25.3,
@@ -12647,7 +12502,7 @@
     88.22,
     90.64
    ],
-   "rank": 173
+   "rank": 171
   },
   {
    "name": "Midea Group Co., Ltd.",
@@ -12719,7 +12574,79 @@
     94.14,
     94.51
    ],
-   "rank": 174
+   "rank": 172
+  },
+  {
+   "name": "Petróleo Brasileiro S.A. - Petrobras",
+   "symbol": "PETR3.SA",
+   "exchangeCode": "SAO",
+   "exchange": "B3 Brasil Bolsa Balcão",
+   "country": "Brazil",
+   "sector": "Energy",
+   "industry": "Oil & Gas Integrated",
+   "marketCapUsd": 108140083151,
+   "price": 48.2,
+   "currency": "BRL",
+   "changePct": 41.97,
+   "listingSince": "2000-01-03",
+   "yearsHistory": 26.9,
+   "spark": [
+    33.38,
+    32.84,
+    33.28,
+    32.68,
+    32.12,
+    32.3,
+    31.9,
+    33.98,
+    37.72,
+    40.39,
+    38.87,
+    39.7,
+    40.94,
+    42.73,
+    45.78,
+    49.38,
+    50.34,
+    54.3,
+    53.1,
+    54,
+    50.81,
+    52.24,
+    54.73,
+    50.11,
+    50.45,
+    50.15,
+    46.73,
+    45.71,
+    46.19,
+    43.34,
+    42.25,
+    42.39,
+    44.19,
+    45.81,
+    47.55,
+    49.04,
+    45.69,
+    46.83,
+    49.34,
+    48.25,
+    52.01,
+    54.52,
+    53.41,
+    53.04,
+    56.62,
+    63.06,
+    66.49,
+    65.24,
+    60.01,
+    51.21,
+    51.87,
+    48.63,
+    46.69,
+    48.2
+   ],
+   "rank": 173
   },
   {
    "name": "China Petroleum & Chemical Corporation",
@@ -12791,79 +12718,7 @@
     5.81,
     5.94
    ],
-   "rank": 175
-  },
-  {
-   "name": "Petróleo Brasileiro S.A. - Petrobras",
-   "symbol": "PETR3.SA",
-   "exchangeCode": "SAO",
-   "exchange": "B3 Brasil Bolsa Balcão",
-   "country": "Brazil",
-   "sector": "Energy",
-   "industry": "Oil & Gas Integrated",
-   "marketCapUsd": 107646698127,
-   "price": 48.03,
-   "currency": "BRL",
-   "changePct": 41.47,
-   "listingSince": "2000-01-03",
-   "yearsHistory": 26.9,
-   "spark": [
-    33.38,
-    32.84,
-    33.28,
-    32.68,
-    32.12,
-    32.3,
-    31.9,
-    33.98,
-    37.72,
-    40.39,
-    38.87,
-    39.7,
-    40.94,
-    42.73,
-    45.78,
-    49.38,
-    50.34,
-    54.3,
-    53.1,
-    54,
-    50.81,
-    52.24,
-    54.73,
-    50.11,
-    50.45,
-    50.15,
-    46.73,
-    45.71,
-    46.19,
-    43.34,
-    42.25,
-    42.39,
-    44.19,
-    45.81,
-    47.55,
-    49.04,
-    45.69,
-    46.83,
-    49.34,
-    48.25,
-    52.01,
-    54.52,
-    53.41,
-    53.04,
-    56.62,
-    63.06,
-    66.49,
-    65.24,
-    60.01,
-    51.21,
-    51.87,
-    48.63,
-    46.69,
-    48.03
-   ],
-   "rank": 176
+   "rank": 174
   },
   {
    "name": "Marriott International, Inc.",
@@ -12935,7 +12790,7 @@
     415.77,
     415.77
    ],
-   "rank": 177
+   "rank": 175
   },
   {
    "name": "Intesa Sanpaolo S.p.A.",
@@ -12945,7 +12800,7 @@
    "country": "Italy",
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "marketCapUsd": 106892380285,
+   "marketCapUsd": 106921607148,
    "price": 5.631,
    "currency": "EUR",
    "changePct": 0.84,
@@ -13007,7 +12862,7 @@
     5.5,
     5.63
    ],
-   "rank": 178
+   "rank": 176
   },
   {
    "name": "Newmont Corporation",
@@ -13079,7 +12934,7 @@
     101.44,
     101.44
    ],
-   "rank": 179
+   "rank": 177
   },
   {
    "name": "Enel SpA",
@@ -13089,7 +12944,7 @@
    "country": "Italy",
    "sector": "Utilities",
    "industry": "Utilities - Diversified",
-   "marketCapUsd": 104549958209,
+   "marketCapUsd": 104578544599,
    "price": 9.605,
    "currency": "EUR",
    "changePct": 8.78,
@@ -13151,7 +13006,7 @@
     9.4,
     9.6
    ],
-   "rank": 180
+   "rank": 178
   },
   {
    "name": "Tokio Marine Holdings, Inc.",
@@ -13223,7 +13078,7 @@
     597.6,
     591.1
    ],
-   "rank": 181
+   "rank": 179
   },
   {
    "name": "Enbridge Inc.",
@@ -13233,7 +13088,7 @@
    "country": "Canada",
    "sector": "Energy",
    "industry": "Oil & Gas Midstream",
-   "marketCapUsd": 103987755013,
+   "marketCapUsd": 104018224067,
    "price": 66.45,
    "currency": "CAD",
    "changePct": -1.51,
@@ -13295,7 +13150,7 @@
     66.68,
     66.45
    ],
-   "rank": 182
+   "rank": 180
   },
   {
    "name": "SoftBank Group Corp.",
@@ -13367,7 +13222,7 @@
     2696.5,
     2894
    ],
-   "rank": 183
+   "rank": 181
   },
   {
    "name": "CVS Health Corporation",
@@ -13439,79 +13294,7 @@
     81.06,
     81.06
    ],
-   "rank": 184
-  },
-  {
-   "name": "Tata Consultancy Services Limited",
-   "symbol": "TCS.NS",
-   "exchangeCode": "NSI",
-   "exchange": "National Stock Exchange of India",
-   "country": "India",
-   "sector": "Technology",
-   "industry": "Information Technology Services",
-   "marketCapUsd": 103170636251,
-   "price": 2640.3,
-   "currency": "INR",
-   "changePct": -16.52,
-   "listingSince": "2002-08-12",
-   "yearsHistory": 24.3,
-   "spark": [
-    3137.5,
-    3238.2,
-    3220.5,
-    3282,
-    3280,
-    3250.7,
-    3207.8,
-    3206.7,
-    3162.5,
-    3186.9,
-    2941.6,
-    2692.2,
-    2686.2,
-    2637.4,
-    2557.6,
-    2410.5,
-    2390.6,
-    2389.8,
-    2450.7,
-    2524.3,
-    2581.5,
-    2396.9,
-    2473.9,
-    2394.4,
-    2264,
-    2317.3,
-    2258.9,
-    2198.9,
-    2161.4,
-    2125,
-    2094.7,
-    2093.5,
-    2069,
-    2269,
-    2254.3,
-    2365.6,
-    2452.7,
-    2361,
-    2302,
-    2342,
-    2304,
-    2200.8,
-    2105,
-    2082,
-    2075,
-    2156,
-    2465,
-    2530,
-    2502.6,
-    2498.8,
-    2407.5,
-    2376.2,
-    2517.3,
-    2640.3
-   ],
-   "rank": 185
+   "rank": 182
   },
   {
    "name": "Marsh & McLennan Companies, Inc.",
@@ -13583,7 +13366,7 @@
     216.66,
     216.66
    ],
-   "rank": 186
+   "rank": 183
   },
   {
    "name": "Duke Energy Corporation",
@@ -13655,7 +13438,7 @@
     131.9,
     131.9
    ],
-   "rank": 187
+   "rank": 184
   },
   {
    "name": "GSK plc",
@@ -13665,7 +13448,7 @@
    "country": "United Kingdom",
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - General",
-   "marketCapUsd": 102745824858,
+   "marketCapUsd": 102769345459,
    "price": 1945,
    "currency": "GBp",
    "changePct": 7.22,
@@ -13727,7 +13510,7 @@
     1919.5,
     1945
    ],
-   "rank": 188
+   "rank": 185
   },
   {
    "name": "The Bank of Nova Scotia",
@@ -13737,10 +13520,10 @@
    "country": "Canada",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 102723414591,
-   "price": 120.24,
+   "marketCapUsd": 102669695189,
+   "price": 120.16,
    "currency": "CAD",
-   "changePct": 24.11,
+   "changePct": 24.03,
    "listingSince": "1995-01-12",
    "yearsHistory": 31.9,
    "spark": [
@@ -13797,9 +13580,9 @@
     131.85,
     119.9,
     119.71,
-    120.24
+    120.16
    ],
-   "rank": 189
+   "rank": 186
   },
   {
    "name": "HCA Healthcare, Inc.",
@@ -13871,7 +13654,7 @@
     491.01,
     491.01
    ],
-   "rank": 190
+   "rank": 187
   },
   {
    "name": "Western Digital Corporation",
@@ -13943,7 +13726,7 @@
     272.45,
     272.45
    ],
-   "rank": 191
+   "rank": 188
   },
   {
    "name": "Regeneron Pharmaceuticals, Inc.",
@@ -14015,7 +13798,7 @@
     981.87,
     981.87
    ],
-   "rank": 192
+   "rank": 189
   },
   {
    "name": "AXA SA",
@@ -14025,7 +13808,7 @@
    "country": "France",
    "sector": "Financial Services",
    "industry": "Insurance - Diversified",
-   "marketCapUsd": 101496645471,
+   "marketCapUsd": 101524397015,
    "price": 45.72,
    "currency": "EUR",
    "changePct": 18.02,
@@ -14087,7 +13870,7 @@
     44.88,
     45.72
    ],
-   "rank": 193
+   "rank": 190
   },
   {
    "name": "BYD Company Limited",
@@ -14159,7 +13942,7 @@
     74.45,
     73.62
    ],
-   "rank": 194
+   "rank": 191
   },
   {
    "name": "Intercontinental Exchange, Inc.",
@@ -14231,7 +14014,7 @@
     177.81,
     177.81
    ],
-   "rank": 195
+   "rank": 192
   },
   {
    "name": "Fortinet, Inc.",
@@ -14303,7 +14086,7 @@
     134.96,
     134.96
    ],
-   "rank": 196
+   "rank": 193
   },
   {
    "name": "The Bank of New York Mellon Corporation",
@@ -14375,7 +14158,7 @@
     147.16,
     147.16
    ],
-   "rank": 197
+   "rank": 194
   },
   {
    "name": "ITOCHU Corporation",
@@ -14447,7 +14230,7 @@
     2268,
     2273
    ],
-   "rank": 198
+   "rank": 195
   },
   {
    "name": "Waste Management, Inc.",
@@ -14519,7 +14302,7 @@
     247.29,
     247.29
    ],
-   "rank": 199
+   "rank": 196
   },
   {
    "name": "3M Company",
@@ -14591,7 +14374,7 @@
     189.83,
     189.83
    ],
-   "rank": 200
+   "rank": 197
   },
   {
    "name": "General Dynamics Corporation",
@@ -14663,7 +14446,7 @@
     360.27,
     360.27
    ],
-   "rank": 201
+   "rank": 198
   },
   {
    "name": "AIA Group Limited",
@@ -14735,7 +14518,7 @@
     73.4,
     74
    ],
-   "rank": 202
+   "rank": 199
   },
   {
    "name": "Equinix, Inc.",
@@ -14807,7 +14590,7 @@
     978.22,
     978.22
    ],
-   "rank": 203
+   "rank": 200
   },
   {
    "name": "Al Rajhi Banking and Investment Corporation",
@@ -14879,7 +14662,7 @@
     60.35,
     60.5
    ],
-   "rank": 204
+   "rank": 201
   },
   {
    "name": "ServiceNow, Inc.",
@@ -14951,7 +14734,7 @@
     92.16,
     92.16
    ],
-   "rank": 205
+   "rank": 202
   },
   {
    "name": "Canadian Imperial Bank of Commerce",
@@ -14961,10 +14744,10 @@
    "country": "Canada",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 95071004311,
-   "price": 149.13,
+   "marketCapUsd": 95059044771,
+   "price": 149.1,
    "currency": "CAD",
-   "changePct": 23.97,
+   "changePct": 23.94,
    "listingSince": "1995-01-12",
    "yearsHistory": 31.9,
    "spark": [
@@ -15021,9 +14804,9 @@
     164.99,
     147.36,
     148.46,
-    149.13
+    149.1
    ],
-   "rank": 206
+   "rank": 203
   },
   {
    "name": "Zijin Mining Group Company Limited",
@@ -15095,7 +14878,7 @@
     22.97,
     23.75
    ],
-   "rank": 207
+   "rank": 204
   },
   {
    "name": "United Parcel Service, Inc.",
@@ -15167,7 +14950,7 @@
     111.47,
     111.47
    ],
-   "rank": 208
+   "rank": 205
   },
   {
    "name": "CSX Corporation",
@@ -15239,7 +15022,79 @@
     51.16,
     51.16
    ],
-   "rank": 209
+   "rank": 206
+  },
+  {
+   "name": "Canadian Natural Resources Limited",
+   "symbol": "CNQ.TO",
+   "exchangeCode": "TOR",
+   "exchange": "Toronto Stock Exchange",
+   "country": "Canada",
+   "sector": "Energy",
+   "industry": "Oil & Gas E&P",
+   "marketCapUsd": 94289928639,
+   "price": 65.98,
+   "currency": "CAD",
+   "changePct": 40.98,
+   "listingSince": "1995-01-12",
+   "yearsHistory": 31.9,
+   "spark": [
+    47.29,
+    47.96,
+    45.44,
+    43.99,
+    45.07,
+    47.12,
+    44.62,
+    47.79,
+    49.47,
+    50.63,
+    53.4,
+    55.39,
+    58,
+    59.67,
+    62.96,
+    66.51,
+    67.39,
+    69.46,
+    66.15,
+    64.16,
+    58.81,
+    60.69,
+    63.88,
+    60.89,
+    66.08,
+    67.24,
+    62.7,
+    63.76,
+    63.4,
+    58.66,
+    56.02,
+    56.68,
+    59.1,
+    61.42,
+    65.48,
+    66.78,
+    63.45,
+    66.41,
+    70.81,
+    68.14,
+    69.78,
+    69.32,
+    69.37,
+    67.17,
+    69.1,
+    70.8,
+    76.1,
+    77.12,
+    78.42,
+    68.5,
+    70.91,
+    63.74,
+    64.74,
+    65.98
+   ],
+   "rank": 207
   },
   {
    "name": "Marathon Petroleum Corporation",
@@ -15311,79 +15166,7 @@
     346.27,
     346.27
    ],
-   "rank": 210
-  },
-  {
-   "name": "Canadian Natural Resources Limited",
-   "symbol": "CNQ.TO",
-   "exchangeCode": "TOR",
-   "exchange": "Toronto Stock Exchange",
-   "country": "Canada",
-   "sector": "Energy",
-   "industry": "Oil & Gas E&P",
-   "marketCapUsd": 94247921135,
-   "price": 65.96,
-   "currency": "CAD",
-   "changePct": 40.94,
-   "listingSince": "1995-01-12",
-   "yearsHistory": 31.9,
-   "spark": [
-    47.29,
-    47.96,
-    45.44,
-    43.99,
-    45.07,
-    47.12,
-    44.62,
-    47.79,
-    49.47,
-    50.63,
-    53.4,
-    55.39,
-    58,
-    59.67,
-    62.96,
-    66.51,
-    67.39,
-    69.46,
-    66.15,
-    64.16,
-    58.81,
-    60.69,
-    63.88,
-    60.89,
-    66.08,
-    67.24,
-    62.7,
-    63.76,
-    63.4,
-    58.66,
-    56.02,
-    56.68,
-    59.1,
-    61.42,
-    65.48,
-    66.78,
-    63.45,
-    66.41,
-    70.81,
-    68.14,
-    69.78,
-    69.32,
-    69.37,
-    67.17,
-    69.1,
-    70.8,
-    76.1,
-    77.12,
-    78.42,
-    68.5,
-    70.91,
-    63.74,
-    64.74,
-    65.96
-   ],
-   "rank": 211
+   "rank": 208
   },
   {
    "name": "Equinor ASA",
@@ -15455,7 +15238,7 @@
     384.6,
     383.7
    ],
-   "rank": 212
+   "rank": 209
   },
   {
    "name": "Oversea-Chinese Banking Corporation Limited",
@@ -15465,7 +15248,7 @@
    "country": "Singapore",
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "marketCapUsd": 92688736987,
+   "marketCapUsd": 92700699911,
    "price": 26.61,
    "currency": "SGD",
    "changePct": 45.97,
@@ -15527,7 +15310,7 @@
     26.38,
     26.61
    ],
-   "rank": 213
+   "rank": 210
   },
   {
    "name": "Hon Hai Precision Industry Co., Ltd.",
@@ -15599,7 +15382,7 @@
     206.5,
     216.5
    ],
-   "rank": 214
+   "rank": 211
   },
   {
    "name": "Phillips 66",
@@ -15671,7 +15454,7 @@
     236.08,
     236.08
    ],
-   "rank": 215
+   "rank": 212
   },
   {
    "name": "Comcast Corporation",
@@ -15743,7 +15526,7 @@
     25.73,
     25.73
    ],
-   "rank": 216
+   "rank": 213
   },
   {
    "name": "U.S. Bancorp",
@@ -15815,7 +15598,7 @@
     58.55,
     58.55
    ],
-   "rank": 217
+   "rank": 214
   },
   {
    "name": "Adobe Inc.",
@@ -15887,7 +15670,7 @@
     232.83,
     232.83
    ],
-   "rank": 218
+   "rank": 215
   },
   {
    "name": "Cintas Corporation",
@@ -15959,7 +15742,7 @@
     227.65,
     227.65
    ],
-   "rank": 219
+   "rank": 216
   },
   {
    "name": "Valero Energy Corporation",
@@ -16031,7 +15814,7 @@
     323,
     323
    ],
-   "rank": 220
+   "rank": 217
   },
   {
    "name": "Brookfield Corporation",
@@ -16041,10 +15824,10 @@
    "country": "Canada",
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "marketCapUsd": 89456306522,
-   "price": 57.25,
+   "marketCapUsd": 89562823760,
+   "price": 57.31,
    "currency": "CAD",
-   "changePct": -12.49,
+   "changePct": -12.4,
    "listingSince": "1995-01-12",
    "yearsHistory": 31.9,
    "spark": [
@@ -16101,9 +15884,9 @@
     58.42,
     54.09,
     57.15,
-    57.25
+    57.31
    ],
-   "rank": 221
+   "rank": 218
   },
   {
    "name": "Motorola Solutions, Inc.",
@@ -16175,7 +15958,7 @@
     541,
     541
    ],
-   "rank": 222
+   "rank": 219
   },
   {
    "name": "Waters Corporation",
@@ -16247,7 +16030,7 @@
     454.93,
     454.93
    ],
-   "rank": 223
+   "rank": 220
   },
   {
    "name": "Simon Property Group, Inc.",
@@ -16319,7 +16102,7 @@
     233.98,
     233.98
    ],
-   "rank": 224
+   "rank": 221
   },
   {
    "name": "Delta Electronics, Inc.",
@@ -16391,7 +16174,7 @@
     1055,
     1120
    ],
-   "rank": 225
+   "rank": 222
   },
   {
    "name": "Trane Technologies plc",
@@ -16463,7 +16246,7 @@
     403.48,
     403.48
    ],
-   "rank": 226
+   "rank": 223
   },
   {
    "name": "The PNC Financial Services Group, Inc.",
@@ -16535,7 +16318,7 @@
     220.33,
     220.33
    ],
-   "rank": 227
+   "rank": 224
   },
   {
    "name": "Atlas Copco AB (publ)",
@@ -16607,7 +16390,7 @@
     179.15,
     182.8
    ],
-   "rank": 228
+   "rank": 225
   },
   {
    "name": "The Sherwin-Williams Company",
@@ -16679,7 +16462,7 @@
     361.02,
     361.02
    ],
-   "rank": 229
+   "rank": 226
   },
   {
    "name": "EssilorLuxottica Société anonyme",
@@ -16689,7 +16472,7 @@
    "country": "France",
    "sector": "Healthcare",
    "industry": "Medical Instruments & Supplies",
-   "marketCapUsd": 86830911173,
+   "marketCapUsd": 86854652764,
    "price": 172.65,
    "currency": "EUR",
    "changePct": -44.86,
@@ -16751,7 +16534,79 @@
     173,
     172.65
    ],
-   "rank": 230
+   "rank": 227
+  },
+  {
+   "name": "Itaú Unibanco Holding S.A.",
+   "symbol": "ITUB3.SA",
+   "exchangeCode": "SAO",
+   "exchange": "B3 Brasil Bolsa Balcão",
+   "country": "Brazil",
+   "sector": "Financial Services",
+   "industry": "Banks - Regional",
+   "marketCapUsd": 86724388454,
+   "price": 45.22,
+   "currency": "BRL",
+   "changePct": 26.74,
+   "listingSince": "2000-01-03",
+   "yearsHistory": 26.9,
+   "spark": [
+    37.07,
+    36.91,
+    35.28,
+    35.5,
+    36.05,
+    36.31,
+    37.05,
+    36.95,
+    40.73,
+    41.94,
+    43.44,
+    44.34,
+    46.06,
+    43.58,
+    40.81,
+    41.03,
+    40.49,
+    40.71,
+    42.65,
+    45.93,
+    46.83,
+    44.32,
+    43.55,
+    41.39,
+    40.26,
+    40.26,
+    40.06,
+    40.46,
+    41.88,
+    41.93,
+    44.38,
+    44.5,
+    46.46,
+    44.78,
+    44.7,
+    45.64,
+    43.65,
+    41.89,
+    41.39,
+    42.44,
+    45.72,
+    46.63,
+    46.37,
+    46.09,
+    48.92,
+    54.22,
+    52.21,
+    53.16,
+    43.06,
+    44.78,
+    46.22,
+    44.42,
+    43.75,
+    45.22
+   ],
+   "rank": 228
   },
   {
    "name": "Ecolab Inc.",
@@ -16823,79 +16678,7 @@
     308.89,
     308.89
    ],
-   "rank": 231
-  },
-  {
-   "name": "Itaú Unibanco Holding S.A.",
-   "symbol": "ITUB3.SA",
-   "exchangeCode": "SAO",
-   "exchange": "B3 Brasil Bolsa Balcão",
-   "country": "Brazil",
-   "sector": "Financial Services",
-   "industry": "Banks - Regional",
-   "marketCapUsd": 86570957537,
-   "price": 45.14,
-   "currency": "BRL",
-   "changePct": 26.51,
-   "listingSince": "2000-01-03",
-   "yearsHistory": 26.9,
-   "spark": [
-    37.07,
-    36.91,
-    35.28,
-    35.5,
-    36.05,
-    36.31,
-    37.05,
-    36.95,
-    40.73,
-    41.94,
-    43.44,
-    44.34,
-    46.06,
-    43.58,
-    40.81,
-    41.03,
-    40.49,
-    40.71,
-    42.65,
-    45.93,
-    46.83,
-    44.32,
-    43.55,
-    41.39,
-    40.26,
-    40.26,
-    40.06,
-    40.46,
-    41.88,
-    41.93,
-    44.38,
-    44.5,
-    46.46,
-    44.78,
-    44.7,
-    45.64,
-    43.65,
-    41.89,
-    41.39,
-    42.44,
-    45.72,
-    46.63,
-    46.37,
-    46.09,
-    48.92,
-    54.22,
-    52.21,
-    53.16,
-    43.06,
-    44.78,
-    46.22,
-    44.42,
-    43.75,
-    45.14
-   ],
-   "rank": 232
+   "rank": 229
   },
   {
    "name": "KKR & Co. Inc.",
@@ -16967,7 +16750,7 @@
     94.1,
     94.1
    ],
-   "rank": 233
+   "rank": 230
   },
   {
    "name": "Corning Incorporated",
@@ -17039,7 +16822,7 @@
     100.24,
     100.24
    ],
-   "rank": 234
+   "rank": 231
   },
   {
    "name": "Emerson Electric Co.",
@@ -17111,7 +16894,7 @@
     157.23,
     157.23
    ],
-   "rank": 235
+   "rank": 232
   },
   {
    "name": "NTT, Inc.",
@@ -17183,7 +16966,7 @@
     168,
     169.3
    ],
-   "rank": 236
+   "rank": 233
   },
   {
    "name": "CaixaBank, S.A.",
@@ -17193,7 +16976,7 @@
    "country": "Spain",
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "marketCapUsd": 85945594292,
+   "marketCapUsd": 85969093816,
    "price": 11.29,
    "currency": "EUR",
    "changePct": 18.54,
@@ -17255,7 +17038,7 @@
     10.97,
     11.29
    ],
-   "rank": 237
+   "rank": 234
   },
   {
    "name": "Mondelez International, Inc.",
@@ -17327,79 +17110,7 @@
     67.81,
     67.81
    ],
-   "rank": 238
-  },
-  {
-   "name": "Christian Dior SE",
-   "symbol": "CDI.PA",
-   "exchangeCode": "PAR",
-   "exchange": "Euronext Paris",
-   "country": "France",
-   "sector": "Consumer Cyclical",
-   "industry": "Luxury Goods",
-   "marketCapUsd": 85671236570,
-   "price": 432.8,
-   "currency": "EUR",
-   "changePct": -25.64,
-   "listingSince": "1992-01-27",
-   "yearsHistory": 34.8,
-   "spark": [
-    589.5,
-    587,
-    580.5,
-    587,
-    581.5,
-    601.5,
-    607.5,
-    566,
-    549.5,
-    512,
-    505,
-    492,
-    526,
-    517,
-    478.4,
-    458.4,
-    432,
-    433.8,
-    446.6,
-    462.2,
-    473,
-    443.8,
-    425.2,
-    445.2,
-    427.4,
-    445,
-    447.6,
-    447.8,
-    474.8,
-    463.2,
-    458,
-    455.4,
-    451.6,
-    454.8,
-    423,
-    433.6,
-    435.8,
-    418,
-    409.6,
-    411,
-    393.8,
-    378.4,
-    369.2,
-    416,
-    412,
-    413,
-    433.2,
-    417.8,
-    420.6,
-    441.4,
-    435.6,
-    415,
-    422.4,
-    432.8
-   ],
-   "rank": 239
+   "rank": 235
   },
   {
    "name": "American Tower Corporation",
@@ -17471,7 +17182,7 @@
     184.59,
     184.59
    ],
-   "rank": 240
+   "rank": 236
   },
   {
    "name": "Quanta Services, Inc.",
@@ -17543,7 +17254,7 @@
     565.47,
     565.47
    ],
-   "rank": 241
+   "rank": 237
   },
   {
    "name": "Elevance Health, Inc.",
@@ -17615,7 +17326,7 @@
     389.7,
     389.7
    ],
-   "rank": 242
+   "rank": 238
   },
   {
    "name": "Royal Caribbean Cruises Ltd.",
@@ -17687,7 +17398,7 @@
     314.11,
     314.11
    ],
-   "rank": 243
+   "rank": 239
   },
   {
    "name": "Howmet Aerospace Inc.",
@@ -17759,7 +17470,7 @@
     211.07,
     211.07
    ],
-   "rank": 244
+   "rank": 240
   },
   {
    "name": "Moody's Corporation",
@@ -17831,7 +17542,7 @@
     485.69,
     485.69
    ],
-   "rank": 245
+   "rank": 241
   },
   {
    "name": "Monster Beverage Corporation",
@@ -17903,7 +17614,7 @@
     42.6,
     42.6
    ],
-   "rank": 246
+   "rank": 242
   },
   {
    "name": "The Travelers Companies, Inc.",
@@ -17975,7 +17686,7 @@
     406.86,
     406.86
    ],
-   "rank": 247
+   "rank": 243
   },
   {
    "name": "ING Groep N.V.",
@@ -17985,7 +17696,7 @@
    "country": "Netherlands",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 83316185986,
+   "marketCapUsd": 83338966569,
    "price": 26.835,
    "currency": "EUR",
    "changePct": 19.83,
@@ -18047,7 +17758,7 @@
     26.38,
     26.83
    ],
-   "rank": 248
+   "rank": 244
   },
   {
    "name": "The Williams Companies, Inc.",
@@ -18119,7 +17830,7 @@
     66.45,
     66.45
    ],
-   "rank": 249
+   "rank": 245
   },
   {
    "name": "National Grid plc",
@@ -18129,7 +17840,7 @@
    "country": "United Kingdom",
    "sector": "Utilities",
    "industry": "Utilities - Regulated Electric",
-   "marketCapUsd": 82907952419,
+   "marketCapUsd": 82926931729,
    "price": 1258.5,
    "currency": "GBp",
    "changePct": 10.93,
@@ -18191,7 +17902,7 @@
     1252,
     1258.5
    ],
-   "rank": 250
+   "rank": 246
   },
   {
    "name": "Agnico Eagle Mines Limited",
@@ -18201,10 +17912,10 @@
    "country": "Canada",
    "sector": "Basic Materials",
    "industry": "Gold",
-   "marketCapUsd": 82701997578,
-   "price": 233,
+   "marketCapUsd": 82873521581,
+   "price": 233.45,
    "currency": "CAD",
-   "changePct": -4.13,
+   "changePct": -3.94,
    "listingSince": "1995-01-12",
    "yearsHistory": 31.9,
    "spark": [
@@ -18261,9 +17972,9 @@
     254.4,
     216.67,
     229.3,
-    233
+    233.45
    ],
-   "rank": 251
+   "rank": 247
   },
   {
    "name": "Johnson Controls International plc",
@@ -18335,7 +18046,7 @@
     136.5,
     136.5
    ],
-   "rank": 252
+   "rank": 248
   },
   {
    "name": "Mitsui & Co., Ltd.",
@@ -18407,7 +18118,7 @@
     4642,
     4595
    ],
-   "rank": 253
+   "rank": 249
   },
   {
    "name": "Hilton Worldwide Holdings Inc.",
@@ -18479,7 +18190,7 @@
     366.2,
     366.2
    ],
-   "rank": 254
+   "rank": 250
   },
   {
    "name": "Münchener Rückversicherungs-Gesellschaft Aktiengesellschaft in München",
@@ -18489,7 +18200,7 @@
    "country": "Germany",
    "sector": "Financial Services",
    "industry": "Insurance - Reinsurance",
-   "marketCapUsd": 81335307777,
+   "marketCapUsd": 81357546742,
    "price": 589.2,
    "currency": "EUR",
    "changePct": 8.51,
@@ -18551,7 +18262,7 @@
     585,
     589.2
    ],
-   "rank": 255
+   "rank": 251
   },
   {
    "name": "Canadian Pacific Kansas City Limited",
@@ -18561,10 +18272,10 @@
    "country": "Canada",
    "sector": "Industrials",
    "industry": "Railroads",
-   "marketCapUsd": 81296098698,
-   "price": 133.16,
+   "marketCapUsd": 81350412435,
+   "price": 133.23,
    "currency": "CAD",
-   "changePct": 31.48,
+   "changePct": 31.55,
    "listingSince": "2001-08-23",
    "yearsHistory": 25.3,
    "spark": [
@@ -18621,9 +18332,9 @@
     134.18,
     128.77,
     132.46,
-    133.16
+    133.23
    ],
-   "rank": 256
+   "rank": 252
   },
   {
    "name": "China CITIC Bank Corporation Limited",
@@ -18695,7 +18406,7 @@
     9.54,
     9.7
    ],
-   "rank": 257
+   "rank": 253
   },
   {
    "name": "Illinois Tool Works Inc.",
@@ -18767,7 +18478,79 @@
     285.08,
     285.08
    ],
-   "rank": 258
+   "rank": 254
+  },
+  {
+   "name": "Westpac Banking Corporation",
+   "symbol": "WBC.AX",
+   "exchangeCode": "ASX",
+   "exchange": "Australian Securities Exchange",
+   "country": "Australia",
+   "sector": "Financial Services",
+   "industry": "Banks - Diversified",
+   "marketCapUsd": 80920469289,
+   "price": 35.72,
+   "currency": "AUD",
+   "changePct": -5.65,
+   "listingSince": "1988-01-28",
+   "yearsHistory": 38.8,
+   "spark": [
+    37.59,
+    38.09,
+    38.8,
+    38.76,
+    39.14,
+    38.95,
+    37.9,
+    39.19,
+    38.74,
+    38.82,
+    39.43,
+    40.52,
+    42.54,
+    42.54,
+    41,
+    40.99,
+    40.7,
+    40.74,
+    39.85,
+    42.77,
+    39.73,
+    39.01,
+    38.45,
+    37.44,
+    35.84,
+    36.55,
+    36,
+    34.81,
+    35,
+    35.01,
+    35.14,
+    35.69,
+    36.54,
+    36.56,
+    37.14,
+    37.87,
+    37.93,
+    35.37,
+    33.83,
+    33.9,
+    34.96,
+    34.22,
+    34.75,
+    34.49,
+    34.32,
+    33.72,
+    35.15,
+    36.79,
+    36.82,
+    37.03,
+    37.83,
+    35.94,
+    35.6,
+    35.72
+   ],
+   "rank": 255
   },
   {
    "name": "Cadence Design Systems, Inc.",
@@ -18839,79 +18622,7 @@
     294.89,
     294.89
    ],
-   "rank": 259
-  },
-  {
-   "name": "Westpac Banking Corporation",
-   "symbol": "WBC.AX",
-   "exchangeCode": "ASX",
-   "exchange": "Australian Securities Exchange",
-   "country": "Australia",
-   "sector": "Financial Services",
-   "industry": "Banks - Diversified",
-   "marketCapUsd": 80908269611,
-   "price": 35.72,
-   "currency": "AUD",
-   "changePct": -5.65,
-   "listingSince": "1988-01-28",
-   "yearsHistory": 38.8,
-   "spark": [
-    37.59,
-    38.09,
-    38.8,
-    38.76,
-    39.14,
-    38.95,
-    37.9,
-    39.19,
-    38.74,
-    38.82,
-    39.43,
-    40.52,
-    42.54,
-    42.54,
-    41,
-    40.99,
-    40.7,
-    40.74,
-    39.85,
-    42.77,
-    39.73,
-    39.01,
-    38.45,
-    37.44,
-    35.84,
-    36.55,
-    36,
-    34.81,
-    35,
-    35.01,
-    35.14,
-    35.69,
-    36.54,
-    36.56,
-    37.14,
-    37.87,
-    37.93,
-    35.37,
-    33.83,
-    33.9,
-    34.96,
-    34.22,
-    34.75,
-    34.49,
-    34.32,
-    33.72,
-    35.15,
-    36.79,
-    36.82,
-    37.03,
-    37.83,
-    35.94,
-    35.6,
-    35.72
-   ],
-   "rank": 260
+   "rank": 256
   },
   {
    "name": "Compass Group PLC",
@@ -18921,7 +18632,7 @@
    "country": "United Kingdom",
    "sector": "Consumer Cyclical",
    "industry": "Restaurants",
-   "marketCapUsd": 80774796255,
+   "marketCapUsd": 80793287243,
    "price": 36.25,
    "currency": "USD",
    "changePct": 16.2,
@@ -18983,7 +18694,7 @@
     35.79,
     36.25
    ],
-   "rank": 261
+   "rank": 257
   },
   {
    "name": "Colgate-Palmolive Company",
@@ -19055,7 +18766,7 @@
     99.66,
     99.66
    ],
-   "rank": 262
+   "rank": 258
   },
   {
    "name": "Northrop Grumman Corporation",
@@ -19127,7 +18838,7 @@
     555.79,
     555.79
    ],
-   "rank": 263
+   "rank": 259
   },
   {
    "name": "Target Corporation",
@@ -19199,7 +18910,7 @@
     172.22,
     172.22
    ],
-   "rank": 264
+   "rank": 260
   },
   {
    "name": "Enterprise Products Partners L.P.",
@@ -19271,7 +18982,7 @@
     36.06,
     36.06
    ],
-   "rank": 265
+   "rank": 261
   },
   {
    "name": "Synopsys, Inc.",
@@ -19343,7 +19054,7 @@
     405.09,
     405.09
    ],
-   "rank": 266
+   "rank": 262
   },
   {
    "name": "O'Reilly Automotive, Inc.",
@@ -19415,79 +19126,79 @@
     96.69,
     96.69
    ],
-   "rank": 267
+   "rank": 263
   },
   {
-   "name": "ANZ Group Holdings Limited",
-   "symbol": "ANZ.AX",
-   "exchangeCode": "ASX",
-   "exchange": "Australian Securities Exchange",
-   "country": "Australia",
-   "sector": "Financial Services",
-   "industry": "Banks - Diversified",
-   "marketCapUsd": 77500282221,
-   "price": 38.81,
-   "currency": "AUD",
-   "changePct": 10.48,
-   "listingSince": "1988-01-28",
-   "yearsHistory": 38.8,
+   "name": "Grupo México, S.A.B. de C.V.",
+   "symbol": "GMEXICOB.MX",
+   "exchangeCode": "MEX",
+   "exchange": "Bolsa Mexicana de Valores",
+   "country": "Mexico",
+   "sector": "Basic Materials",
+   "industry": "Other Industrial Metals & Mining",
+   "marketCapUsd": 77462317734,
+   "price": 195.5,
+   "currency": "MXN",
+   "changePct": 24.47,
+   "listingSince": "2000-01-03",
+   "yearsHistory": 26.9,
    "spark": [
-    34.64,
-    35.33,
-    35.81,
-    36.03,
-    36.3,
-    36.42,
-    35.45,
-    37.52,
-    36.21,
-    36.7,
-    37.01,
-    40.89,
-    40.7,
-    40.04,
-    37.64,
-    37.2,
-    36.6,
-    36.49,
-    36.63,
-    38.84,
-    37.92,
-    36.23,
-    35.61,
-    36.79,
-    35.21,
-    35.5,
-    35.2,
-    34.12,
-    34.17,
-    35.03,
-    35.04,
-    35.26,
-    36.05,
-    36.06,
-    36.47,
-    37.31,
-    37.73,
-    38.89,
-    37.13,
-    36.73,
-    37.95,
-    37.27,
-    37.68,
-    37.84,
-    37.37,
-    37.18,
-    38.89,
-    40.04,
-    40.81,
-    40.34,
-    39.59,
-    38.58,
-    38.57,
-    38.81
+    158.26,
+    164.98,
+    170.41,
+    163.37,
+    171.54,
+    167.88,
+    180.35,
+    192.03,
+    191.04,
+    190.86,
+    205.56,
+    202.4,
+    202.9,
+    216.03,
+    192.2,
+    185.24,
+    171.98,
+    179.26,
+    193.77,
+    204.23,
+    208.02,
+    197.95,
+    189.54,
+    203.57,
+    200.03,
+    203.84,
+    212.1,
+    200.18,
+    207.2,
+    205.38,
+    197.95,
+    197.31,
+    196.59,
+    198,
+    205.16,
+    206.16,
+    223.14,
+    214.75,
+    234.58,
+    228.13,
+    222.62,
+    217.18,
+    210.77,
+    222.96,
+    231.21,
+    240.86,
+    243.61,
+    227.92,
+    223.17,
+    216.01,
+    218.51,
+    192.9,
+    201.11,
+    195.5
    ],
-   "rank": 268
+   "rank": 264
   },
   {
    "name": "Republic Services, Inc.",
@@ -19559,79 +19270,7 @@
     254.16,
     254.16
    ],
-   "rank": 269
-  },
-  {
-   "name": "Grupo México, S.A.B. de C.V.",
-   "symbol": "GMEXICOB.MX",
-   "exchangeCode": "MEX",
-   "exchange": "Bolsa Mexicana de Valores",
-   "country": "Mexico",
-   "sector": "Basic Materials",
-   "industry": "Other Industrial Metals & Mining",
-   "marketCapUsd": 77371077073,
-   "price": 195.02,
-   "currency": "MXN",
-   "changePct": 24.16,
-   "listingSince": "2000-01-03",
-   "yearsHistory": 26.9,
-   "spark": [
-    158.26,
-    164.98,
-    170.41,
-    163.37,
-    171.54,
-    167.88,
-    180.35,
-    192.03,
-    191.04,
-    190.86,
-    205.56,
-    202.4,
-    202.9,
-    216.03,
-    192.2,
-    185.24,
-    171.98,
-    179.26,
-    193.77,
-    204.23,
-    208.02,
-    197.95,
-    189.54,
-    203.57,
-    200.03,
-    203.84,
-    212.1,
-    200.18,
-    207.2,
-    205.38,
-    197.95,
-    197.31,
-    196.59,
-    198,
-    205.16,
-    206.16,
-    223.14,
-    214.75,
-    234.58,
-    228.13,
-    222.62,
-    217.18,
-    210.77,
-    222.96,
-    231.21,
-    240.86,
-    243.61,
-    227.92,
-    223.17,
-    216.01,
-    218.51,
-    192.9,
-    201.11,
-    195.02
-   ],
-   "rank": 270
+   "rank": 265
   },
   {
    "name": "EOG Resources, Inc.",
@@ -19703,7 +19342,7 @@
     148.31,
     148.31
    ],
-   "rank": 271
+   "rank": 266
   },
   {
    "name": "Chugai Pharmaceutical Co., Ltd.",
@@ -19775,7 +19414,7 @@
     7501,
     7381
    ],
-   "rank": 272
+   "rank": 267
   },
   {
    "name": "Canadian National Railway Company",
@@ -19785,10 +19424,10 @@
    "country": "Canada",
    "sector": "Industrials",
    "industry": "Railroads",
-   "marketCapUsd": 75919408001,
-   "price": 180.28,
+   "marketCapUsd": 75930221191,
+   "price": 180.31,
    "currency": "CAD",
-   "changePct": 36.54,
+   "changePct": 36.57,
    "listingSince": "1996-11-22",
    "yearsHistory": 30,
    "spark": [
@@ -19845,9 +19484,9 @@
     181.29,
     175.38,
     179.66,
-    180.28
+    180.31
    ],
-   "rank": 273
+   "rank": 268
   },
   {
    "name": "Suncor Energy Inc.",
@@ -19857,10 +19496,10 @@
    "country": "Canada",
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "marketCapUsd": 75436261829,
-   "price": 93.32,
+   "marketCapUsd": 75479340571,
+   "price": 93.37,
    "currency": "CAD",
-   "changePct": 49.5,
+   "changePct": 49.58,
    "listingSince": "1995-01-12",
    "yearsHistory": 31.9,
    "spark": [
@@ -19917,9 +19556,9 @@
     99.66,
     91.58,
     91.6,
-    93.32
+    93.37
    ],
-   "rank": 274
+   "rank": 269
   },
   {
    "name": "Eni S.p.A.",
@@ -19929,7 +19568,7 @@
    "country": "Italy",
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "marketCapUsd": 75275848209,
+   "marketCapUsd": 75296430377,
    "price": 24.175,
    "currency": "EUR",
    "changePct": 51.23,
@@ -19991,7 +19630,7 @@
     23.74,
     24.17
    ],
-   "rank": 275
+   "rank": 270
   },
   {
    "name": "Bajaj Finance Limited",
@@ -20063,7 +19702,7 @@
     1131.35,
     1097.85
    ],
-   "rank": 276
+   "rank": 271
   },
   {
    "name": "Arthur J. Gallagher & Co.",
@@ -20135,7 +19774,7 @@
     292.39,
     292.39
    ],
-   "rank": 277
+   "rank": 272
   },
   {
    "name": "National Australia Bank Limited",
@@ -20145,7 +19784,7 @@
    "country": "Australia",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 74776687011,
+   "marketCapUsd": 74787962145,
    "price": 36.24,
    "currency": "AUD",
    "changePct": -10.25,
@@ -20207,7 +19846,7 @@
     36.38,
     36.24
    ],
-   "rank": 278
+   "rank": 273
   },
   {
    "name": "Diageo plc",
@@ -20217,7 +19856,7 @@
    "country": "United Kingdom",
    "sector": "Consumer Defensive",
    "industry": "Beverages - Wineries & Distilleries",
-   "marketCapUsd": 74433804665,
+   "marketCapUsd": 74450844071,
    "price": 101.99,
    "currency": "USD",
    "changePct": 12.2,
@@ -20279,7 +19918,7 @@
     101.99,
     101.99
    ],
-   "rank": 279
+   "rank": 274
   },
   {
    "name": "Aon plc",
@@ -20351,7 +19990,7 @@
     347.49,
     347.49
    ],
-   "rank": 280
+   "rank": 275
   },
   {
    "name": "América Móvil, S.A.B. de C.V.",
@@ -20423,7 +20062,7 @@
     24.41,
     24.23
    ],
-   "rank": 281
+   "rank": 276
   },
   {
    "name": "Norfolk Southern Corporation",
@@ -20495,7 +20134,7 @@
     326.51,
     326.51
    ],
-   "rank": 282
+   "rank": 277
   },
   {
    "name": "Takeda Pharmaceutical Company Limited",
@@ -20567,7 +20206,7 @@
     7365,
     7250
    ],
-   "rank": 283
+   "rank": 278
   },
   {
    "name": "BAE Systems plc",
@@ -20577,7 +20216,7 @@
    "country": "United Kingdom",
    "sector": "Industrials",
    "industry": "Aerospace & Defense",
-   "marketCapUsd": 72610698459,
+   "marketCapUsd": 72627320519,
    "price": 1896,
    "currency": "GBp",
    "changePct": 15.33,
@@ -20639,7 +20278,7 @@
     1839,
     1896
    ],
-   "rank": 284
+   "rank": 279
   },
   {
    "name": "PT Bank Central Asia Tbk",
@@ -20711,7 +20350,7 @@
     5825,
     5900
    ],
-   "rank": 285
+   "rank": 280
   },
   {
    "name": "FedEx Corporation",
@@ -20783,7 +20422,7 @@
     308.87,
     308.87
    ],
-   "rank": 286
+   "rank": 281
   },
   {
    "name": "Assicurazioni Generali S.p.A.",
@@ -20793,7 +20432,7 @@
    "country": "Italy",
    "sector": "Financial Services",
    "industry": "Insurance - Diversified",
-   "marketCapUsd": 71707669825,
+   "marketCapUsd": 71727276370,
    "price": 43.56,
    "currency": "EUR",
    "changePct": 27.89,
@@ -20855,7 +20494,7 @@
     42.87,
     43.56
    ],
-   "rank": 287
+   "rank": 282
   },
   {
    "name": "Ferrari N.V.",
@@ -20865,7 +20504,7 @@
    "country": "Italy",
    "sector": "Consumer Cyclical",
    "industry": "Auto Manufacturers",
-   "marketCapUsd": 71676916485,
+   "marketCapUsd": 71696514621,
    "price": 373,
    "currency": "EUR",
    "changePct": 12.08,
@@ -20927,7 +20566,7 @@
     365.7,
     373
    ],
-   "rank": 288
+   "rank": 283
   },
   {
    "name": "Lloyds Banking Group plc",
@@ -20937,7 +20576,7 @@
    "country": "United Kingdom",
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "marketCapUsd": 71661433821,
+   "marketCapUsd": 71677838575,
    "price": 96.18,
    "currency": "GBp",
    "changePct": 2.54,
@@ -20999,7 +20638,7 @@
     93.6,
     96.18
    ],
-   "rank": 289
+   "rank": 284
   },
   {
    "name": "SLB N.V.",
@@ -21071,7 +20710,7 @@
     48.52,
     48.52
    ],
-   "rank": 290
+   "rank": 285
   },
   {
    "name": "Intuit Inc.",
@@ -21143,7 +20782,7 @@
     271.72,
     271.72
    ],
-   "rank": 291
+   "rank": 286
   },
   {
    "name": "The Cigna Group",
@@ -21215,7 +20854,7 @@
     271.42,
     271.42
    ],
-   "rank": 292
+   "rank": 287
   },
   {
    "name": "Honeywell International Inc.",
@@ -21287,7 +20926,7 @@
     225.1,
     225.1
    ],
-   "rank": 293
+   "rank": 288
   },
   {
    "name": "Ross Stores, Inc.",
@@ -21359,7 +20998,7 @@
     223.26,
     223.26
    ],
-   "rank": 294
+   "rank": 289
   },
   {
    "name": "Merck KGaA",
@@ -21369,7 +21008,7 @@
    "country": "Germany",
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "marketCapUsd": 71174113087,
+   "marketCapUsd": 71193573745,
    "price": 149.2,
    "currency": "EUR",
    "changePct": 28.9,
@@ -21431,7 +21070,7 @@
     147.1,
     149.2
    ],
-   "rank": 295
+   "rank": 290
   },
   {
    "name": "Apollo Global Management, Inc.",
@@ -21503,7 +21142,7 @@
     120.48,
     120.48
    ],
-   "rank": 296
+   "rank": 291
   },
   {
    "name": "General Motors Company",
@@ -21575,7 +21214,7 @@
     83.99,
     83.99
    ],
-   "rank": 297
+   "rank": 292
   },
   {
    "name": "Kinder Morgan, Inc.",
@@ -21647,7 +21286,7 @@
     31.69,
     31.69
    ],
-   "rank": 298
+   "rank": 293
   },
   {
    "name": "RELX PLC",
@@ -21657,7 +21296,7 @@
    "country": "United Kingdom",
    "sector": "Industrials",
    "industry": "Specialty Business Services",
-   "marketCapUsd": 70487107729,
+   "marketCapUsd": 70503243656,
    "price": 3103,
    "currency": "GBp",
    "changePct": 2.48,
@@ -21719,7 +21358,7 @@
     3037,
     3103
    ],
-   "rank": 299
+   "rank": 294
   },
   {
    "name": "Air Products and Chemicals, Inc.",
@@ -21791,7 +21430,7 @@
     314.26,
     314.26
    ],
-   "rank": 300
+   "rank": 295
   },
   {
    "name": "DHL AG",
@@ -21801,7 +21440,7 @@
    "country": "Germany",
    "sector": "Industrials",
    "industry": "Integrated Freight & Logistics",
-   "marketCapUsd": 69924236776,
+   "marketCapUsd": 69943355689,
    "price": 56.94,
    "currency": "EUR",
    "changePct": 29.29,
@@ -21863,7 +21502,7 @@
     56.06,
     56.94
    ],
-   "rank": 301
+   "rank": 296
   },
   {
    "name": "Barclays PLC",
@@ -21873,7 +21512,7 @@
    "country": "United Kingdom",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 69781010162,
+   "marketCapUsd": 69796984449,
    "price": 401.5,
    "currency": "GBp",
    "changePct": -5.07,
@@ -21935,7 +21574,7 @@
     391.15,
     401.5
    ],
-   "rank": 302
+   "rank": 297
   },
   {
    "name": "Manulife Financial Corporation",
@@ -21945,10 +21584,10 @@
    "country": "Canada",
    "sector": "Financial Services",
    "industry": "Insurance - Life",
-   "marketCapUsd": 69747034766,
-   "price": 60.13,
+   "marketCapUsd": 69704771345,
+   "price": 60.09,
    "currency": "CAD",
-   "changePct": 23.19,
+   "changePct": 23.11,
    "listingSince": "1999-09-30",
    "yearsHistory": 27.2,
    "spark": [
@@ -22005,9 +21644,9 @@
     62.89,
     58.69,
     60.02,
-    60.13
+    60.09
    ],
-   "rank": 303
+   "rank": 298
   },
   {
    "name": "Freeport-McMoRan Inc.",
@@ -22079,7 +21718,7 @@
     48.55,
     48.55
    ],
-   "rank": 304
+   "rank": 299
   },
   {
    "name": "American Electric Power Company, Inc.",
@@ -22151,7 +21790,7 @@
     127.59,
     127.59
    ],
-   "rank": 305
+   "rank": 300
   },
   {
    "name": "Engie SA",
@@ -22161,7 +21800,7 @@
    "country": "France",
    "sector": "Utilities",
    "industry": "Utilities - Diversified",
-   "marketCapUsd": 69214990967,
+   "marketCapUsd": 69233915955,
    "price": 24.83,
    "currency": "EUR",
    "changePct": 13.74,
@@ -22223,7 +21862,7 @@
     24.41,
     24.83
    ],
-   "rank": 306
+   "rank": 301
   },
   {
    "name": "Vinci SA",
@@ -22233,7 +21872,7 @@
    "country": "France",
    "sector": "Industrials",
    "industry": "Engineering & Construction",
-   "marketCapUsd": 69108417140,
+   "marketCapUsd": 69127312988,
    "price": 114.5,
    "currency": "EUR",
    "changePct": -6.19,
@@ -22295,7 +21934,7 @@
     112.4,
     114.5
    ],
-   "rank": 307
+   "rank": 302
   },
   {
    "name": "ASE Technology Holding Co., Ltd.",
@@ -22367,7 +22006,7 @@
     488,
     511
    ],
-   "rank": 308
+   "rank": 303
   },
   {
    "name": "Cencora, Inc.",
@@ -22439,7 +22078,7 @@
     354.05,
     354.05
    ],
-   "rank": 309
+   "rank": 304
   },
   {
    "name": "Kimberly-Clark Corporation",
@@ -22511,7 +22150,7 @@
     109.45,
     109.45
    ],
-   "rank": 310
+   "rank": 305
   },
   {
    "name": "The Allstate Corporation",
@@ -22583,7 +22222,7 @@
     271.39,
     271.39
    ],
-   "rank": 311
+   "rank": 306
   },
   {
    "name": "JAPAN POST BANK Co., Ltd.",
@@ -22655,7 +22294,7 @@
     3016,
     2986.5
    ],
-   "rank": 312
+   "rank": 307
   },
   {
    "name": "CSL Limited",
@@ -22665,7 +22304,7 @@
    "country": "Australia",
    "sector": "Healthcare",
    "industry": "Biotechnology",
-   "marketCapUsd": 66458902476,
+   "marketCapUsd": 66468923420,
    "price": 208.82,
    "currency": "AUD",
    "changePct": 14.17,
@@ -22727,7 +22366,7 @@
     208,
     208.82
    ],
-   "rank": 313
+   "rank": 308
   },
   {
    "name": "W.W. Grainger, Inc.",
@@ -22799,7 +22438,7 @@
     1415.9,
     1415.9
    ],
-   "rank": 314
+   "rank": 309
   },
   {
    "name": "Nintendo Co., Ltd.",
@@ -22871,7 +22510,7 @@
     8983,
     9082
    ],
-   "rank": 315
+   "rank": 310
   },
   {
    "name": "TC Energy Corporation",
@@ -22881,10 +22520,10 @@
    "country": "Canada",
    "sector": "Energy",
    "industry": "Oil & Gas Midstream",
-   "marketCapUsd": 65645353714,
-   "price": 89.74,
+   "marketCapUsd": 65647386491,
+   "price": 89.73,
    "currency": "CAD",
-   "changePct": 18.39,
+   "changePct": 18.38,
    "listingSince": "1995-01-12",
    "yearsHistory": 31.9,
    "spark": [
@@ -22941,9 +22580,9 @@
     92.31,
     89.08,
     89.33,
-    89.74
+    89.73
    ],
-   "rank": 316
+   "rank": 311
   },
   {
    "name": "Boston Scientific Corporation",
@@ -23015,7 +22654,7 @@
     45.12,
     45.12
    ],
-   "rank": 317
+   "rank": 312
   },
   {
    "name": "Cardinal Health, Inc.",
@@ -23087,7 +22726,7 @@
     282.91,
     282.91
    ],
-   "rank": 318
+   "rank": 313
   },
   {
    "name": "Industrial Bank Co., Ltd.",
@@ -23159,7 +22798,7 @@
     20.48,
     20.54
    ],
-   "rank": 319
+   "rank": 314
   },
   {
    "name": "KDDI Corporation",
@@ -23231,7 +22870,7 @@
     2817,
     2804.5
    ],
-   "rank": 320
+   "rank": 315
   },
   {
    "name": "AB Volvo (publ)",
@@ -23303,7 +22942,7 @@
     316,
     325.8
    ],
-   "rank": 321
+   "rank": 316
   },
   {
    "name": "CRH plc",
@@ -23375,7 +23014,7 @@
     97.3,
     97.3
    ],
-   "rank": 322
+   "rank": 317
   },
   {
    "name": "London Stock Exchange Group plc",
@@ -23385,7 +23024,7 @@
    "country": "United Kingdom",
    "sector": "Financial Services",
    "industry": "Financial Data & Stock Exchanges",
-   "marketCapUsd": 64519216370,
+   "marketCapUsd": 64533986125,
    "price": 10315,
    "currency": "GBp",
    "changePct": 16.03,
@@ -23447,7 +23086,7 @@
     9948,
     10315
    ],
-   "rank": 323
+   "rank": 318
   },
   {
    "name": "Digital Realty Trust, Inc.",
@@ -23519,7 +23158,7 @@
     166.43,
     166.43
    ],
-   "rank": 324
+   "rank": 319
   },
   {
    "name": "Public Storage",
@@ -23591,7 +23230,7 @@
     337.98,
     337.98
    ],
-   "rank": 325
+   "rank": 320
   },
   {
    "name": "Shin-Etsu Chemical Co., Ltd.",
@@ -23663,7 +23302,7 @@
     5492,
     5516
    ],
-   "rank": 326
+   "rank": 321
   },
   {
    "name": "Aflac Incorporated",
@@ -23735,7 +23374,7 @@
     127.51,
     127.51
    ],
-   "rank": 327
+   "rank": 322
   },
   {
    "name": "United Rentals, Inc.",
@@ -23807,7 +23446,7 @@
     1015.72,
     1015.72
    ],
-   "rank": 328
+   "rank": 323
   },
   {
    "name": "TransDigm Group Incorporated",
@@ -23879,7 +23518,7 @@
     1150.73,
     1150.73
    ],
-   "rank": 329
+   "rank": 324
   },
   {
    "name": "MetLife, Inc.",
@@ -23951,7 +23590,7 @@
     99.78,
     99.78
    ],
-   "rank": 330
+   "rank": 325
   },
   {
    "name": "Deutsche Börse AG",
@@ -23961,7 +23600,7 @@
    "country": "Germany",
    "sector": "Financial Services",
    "industry": "Financial Data & Stock Exchanges",
-   "marketCapUsd": 62014983818,
+   "marketCapUsd": 62031940157,
    "price": 317.2,
    "currency": "EUR",
    "changePct": 43.21,
@@ -24023,7 +23662,7 @@
     312.7,
     317.2
    ],
-   "rank": 331
+   "rank": 326
   },
   {
    "name": "Japan Tobacco Inc.",
@@ -24095,7 +23734,7 @@
     5629,
     5527
    ],
-   "rank": 332
+   "rank": 327
   },
   {
    "name": "Cheniere Energy, Inc.",
@@ -24167,7 +23806,7 @@
     301.99,
     301.99
    ],
-   "rank": 333
+   "rank": 328
   },
   {
    "name": "BOC Hong Kong (Holdings) Limited",
@@ -24239,7 +23878,7 @@
     45.48,
     45.68
    ],
-   "rank": 334
+   "rank": 329
   },
   {
    "name": "Larsen & Toubro Limited",
@@ -24311,7 +23950,7 @@
     4156,
     4132.1
    ],
-   "rank": 335
+   "rank": 330
   },
   {
    "name": "Targa Resources Corp.",
@@ -24383,7 +24022,7 @@
     285.53,
     285.53
    ],
-   "rank": 336
+   "rank": 331
   },
   {
    "name": "Edwards Lifesciences Corporation",
@@ -24455,7 +24094,7 @@
     106.36,
     106.36
    ],
-   "rank": 337
+   "rank": 332
   },
   {
    "name": "NatWest Group plc",
@@ -24465,7 +24104,7 @@
    "country": "United Kingdom",
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "marketCapUsd": 61130873455,
+   "marketCapUsd": 61144867550,
    "price": 591.2,
    "currency": "GBp",
    "changePct": -4.4,
@@ -24527,7 +24166,7 @@
     574.2,
     591.2
    ],
-   "rank": 338
+   "rank": 333
   },
   {
    "name": "Fastenal Company",
@@ -24599,7 +24238,7 @@
     52.93,
     52.93
    ],
-   "rank": 339
+   "rank": 334
   },
   {
    "name": "Deutsche Bank Aktiengesellschaft",
@@ -24609,7 +24248,7 @@
    "country": "Germany",
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "marketCapUsd": 60653208135,
+   "marketCapUsd": 60669792133,
    "price": 29.815,
    "currency": "EUR",
    "changePct": -2.66,
@@ -24671,7 +24310,7 @@
     29.07,
     29.82
    ],
-   "rank": 340
+   "rank": 335
   },
   {
    "name": "TE Connectivity plc",
@@ -24743,7 +24382,7 @@
     211.48,
     211.48
    ],
-   "rank": 341
+   "rank": 336
   },
   {
    "name": "Infineon Technologies AG",
@@ -24753,7 +24392,7 @@
    "country": "Germany",
    "sector": "Technology",
    "industry": "Semiconductors",
-   "marketCapUsd": 60443934422,
+   "marketCapUsd": 60460461199,
    "price": 42.355,
    "currency": "EUR",
    "changePct": 21.74,
@@ -24815,7 +24454,7 @@
     40.9,
     42.35
    ],
-   "rank": 342
+   "rank": 337
   },
   {
    "name": "UCB SA",
@@ -24825,7 +24464,7 @@
    "country": "Belgium",
    "sector": "Healthcare",
    "industry": "Biotechnology",
-   "marketCapUsd": 60080799633,
+   "marketCapUsd": 60097227121,
    "price": 287.2,
    "currency": "EUR",
    "changePct": 20.77,
@@ -24887,7 +24526,7 @@
     285.5,
     287.2
    ],
-   "rank": 343
+   "rank": 338
   },
   {
    "name": "Becton, Dickinson and Company",
@@ -24959,7 +24598,7 @@
     221.24,
     221.24
    ],
-   "rank": 344
+   "rank": 339
   },
   {
    "name": "Nordea Bank Abp",
@@ -24969,7 +24608,7 @@
    "country": "Finland",
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "marketCapUsd": 59857297500,
+   "marketCapUsd": 59873663877,
    "price": 16.075,
    "currency": "EUR",
    "changePct": 5.51,
@@ -25031,7 +24670,7 @@
     15.74,
     16.08
    ],
-   "rank": 345
+   "rank": 340
   },
   {
    "name": "Dominion Energy, Inc.",
@@ -25103,7 +24742,7 @@
     67.99,
     67.99
    ],
-   "rank": 346
+   "rank": 341
   },
   {
    "name": "Nasdaq, Inc.",
@@ -25175,7 +24814,7 @@
     107.07,
     107.07
    ],
-   "rank": 347
+   "rank": 342
   },
   {
    "name": "Great-West Lifeco Inc.",
@@ -25185,10 +24824,10 @@
    "country": "Canada",
    "sector": "Financial Services",
    "industry": "Insurance - Life",
-   "marketCapUsd": 59001901171,
-   "price": 94.1,
+   "marketCapUsd": 58916327478,
+   "price": 94.04,
    "currency": "CAD",
-   "changePct": 45.37,
+   "changePct": 45.28,
    "listingSince": "2002-07-08",
    "yearsHistory": 24.4,
    "spark": [
@@ -25245,9 +24884,9 @@
     93.99,
     90.72,
     93.63,
-    94.1
+    94.04
    ],
-   "rank": 348
+   "rank": 343
   },
   {
    "name": "Nan Ya Plastics Corporation",
@@ -25319,7 +24958,7 @@
     226.5,
     244
    ],
-   "rank": 349
+   "rank": 344
   },
   {
    "name": "Wesfarmers Limited",
@@ -25329,7 +24968,7 @@
    "country": "Australia",
    "sector": "Consumer Cyclical",
    "industry": "Home Improvement Retail",
-   "marketCapUsd": 58470712338,
+   "marketCapUsd": 58479528790,
    "price": 77.64,
    "currency": "AUD",
    "changePct": -4.22,
@@ -25391,7 +25030,7 @@
     78.06,
     77.64
    ],
-   "rank": 350
+   "rank": 345
   },
   {
    "name": "Loblaw Companies Limited",
@@ -25401,10 +25040,10 @@
    "country": "Canada",
    "sector": "Consumer Defensive",
    "industry": "Grocery Stores",
-   "marketCapUsd": 58430324099,
-   "price": 72.46,
+   "marketCapUsd": 58470905907,
+   "price": 72.54,
    "currency": "CAD",
-   "changePct": 15.66,
+   "changePct": 15.79,
    "listingSince": "1995-01-12",
    "yearsHistory": 31.9,
    "spark": [
@@ -25461,9 +25100,9 @@
     69.93,
     71.45,
     72.08,
-    72.46
+    72.54
    ],
-   "rank": 351
+   "rank": 346
   },
   {
    "name": "Monolithic Power Systems, Inc.",
@@ -25535,7 +25174,7 @@
     1194.63,
     1194.63
    ],
-   "rank": 352
+   "rank": 347
   },
   {
    "name": "CITIC Securities Company Limited",
@@ -25607,7 +25246,7 @@
     24.8,
     24.72
    ],
-   "rank": 353
+   "rank": 348
   },
   {
    "name": "The Saudi National Bank",
@@ -25679,7 +25318,7 @@
     36.68,
     36.6
    ],
-   "rank": 354
+   "rank": 349
   },
   {
    "name": "Saudi Arabian Mining Company (Maaden)",
@@ -25751,7 +25390,7 @@
     55.4,
     55.7
    ],
-   "rank": 355
+   "rank": 350
   },
   {
    "name": "Cummins Inc.",
@@ -25823,7 +25462,7 @@
     420.72,
     420.72
    ],
-   "rank": 356
+   "rank": 351
   },
   {
    "name": "Fubon Financial Holding Co., Ltd.",
@@ -25895,7 +25534,7 @@
     132.5,
     138.5
    ],
-   "rank": 357
+   "rank": 352
   },
   {
    "name": "Mitsubishi Electric Corporation",
@@ -25967,7 +25606,7 @@
     4474,
     4457
    ],
-   "rank": 358
+   "rank": 353
   },
   {
    "name": "Realty Income Corporation",
@@ -26039,7 +25678,7 @@
     60.25,
     60.25
    ],
-   "rank": 359
+   "rank": 354
   },
   {
    "name": "Truist Financial Corporation",
@@ -26111,79 +25750,7 @@
     47.89,
     47.89
    ],
-   "rank": 360
-  },
-  {
-   "name": "Macquarie Group Limited",
-   "symbol": "MQG.AX",
-   "exchangeCode": "ASX",
-   "exchange": "Australian Securities Exchange",
-   "country": "Australia",
-   "sector": "Financial Services",
-   "industry": "Capital Markets",
-   "marketCapUsd": 57239989708,
-   "price": 226.45,
-   "currency": "AUD",
-   "changePct": 14.75,
-   "listingSince": "1996-07-31",
-   "yearsHistory": 30.3,
-   "spark": [
-    197.04,
-    195.79,
-    201.57,
-    200.58,
-    205.03,
-    203.73,
-    206.08,
-    211.86,
-    210.41,
-    212.18,
-    207.83,
-    216.17,
-    219.39,
-    213.48,
-    200.3,
-    195.33,
-    194.99,
-    201.42,
-    205.59,
-    225,
-    239.88,
-    232.28,
-    238.19,
-    239.23,
-    242.96,
-    240.2,
-    238.55,
-    236.42,
-    242.44,
-    249.82,
-    249.36,
-    251.65,
-    254.49,
-    258.41,
-    255.04,
-    253.09,
-    264.45,
-    261.9,
-    248.43,
-    251.78,
-    251.87,
-    245.25,
-    238.62,
-    239.53,
-    245.63,
-    248.37,
-    249.35,
-    247.04,
-    252.44,
-    248.86,
-    244.17,
-    220.03,
-    224.95,
-    226.45
-   ],
-   "rank": 361
+   "rank": 355
   },
   {
    "name": "MPLX LP",
@@ -26255,7 +25822,7 @@
     56.28,
     56.28
    ],
-   "rank": 362
+   "rank": 356
   },
   {
    "name": "Bayer Aktiengesellschaft",
@@ -26265,7 +25832,7 @@
    "country": "Germany",
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - General",
-   "marketCapUsd": 56935505512,
+   "marketCapUsd": 56951073004,
    "price": 52.82,
    "currency": "EUR",
    "changePct": 73.98,
@@ -26327,7 +25894,7 @@
     50.68,
     52.82
    ],
-   "rank": 363
+   "rank": 357
   },
   {
    "name": "PACCAR Inc",
@@ -26399,7 +25966,7 @@
     107.95,
     107.95
    ],
-   "rank": 364
+   "rank": 358
   },
   {
    "name": "Barrick Mining Corporation",
@@ -26409,10 +25976,10 @@
    "country": "Canada",
    "sector": "Basic Materials",
    "industry": "Gold",
-   "marketCapUsd": 56807250434,
-   "price": 49.67,
+   "marketCapUsd": 56815341483,
+   "price": 49.69,
    "currency": "CAD",
-   "changePct": -13.71,
+   "changePct": -13.67,
    "listingSince": "1995-01-12",
    "yearsHistory": 31.9,
    "spark": [
@@ -26469,9 +26036,9 @@
     53.65,
     45.24,
     49.08,
-    49.67
+    49.69
    ],
-   "rank": 365
+   "rank": 359
   },
   {
    "name": "Hong Kong Exchanges and Clearing Limited",
@@ -26543,7 +26110,7 @@
     346.8,
     351.4
    ],
-   "rank": 366
+   "rank": 360
   },
   {
    "name": "Wheaton Precious Metals Corp.",
@@ -26553,10 +26120,10 @@
    "country": "Canada",
    "sector": "Basic Materials",
    "industry": "Gold",
-   "marketCapUsd": 56404569191,
-   "price": 176.88,
+   "marketCapUsd": 56476385745,
+   "price": 177.08,
    "currency": "CAD",
-   "changePct": 17.95,
+   "changePct": 18.08,
    "listingSince": "2004-12-01",
    "yearsHistory": 22,
    "spark": [
@@ -26613,9 +26180,9 @@
     187.43,
     157.49,
     174.13,
-    176.88
+    177.08
    ],
-   "rank": 367
+   "rank": 361
   },
   {
    "name": "Lonza Group AG",
@@ -26625,7 +26192,7 @@
    "country": "Switzerland",
    "sector": "Healthcare",
    "industry": "Diagnostics & Research",
-   "marketCapUsd": 55900407392,
+   "marketCapUsd": 55909735787,
    "price": 667.8,
    "currency": "CHF",
    "changePct": 23.44,
@@ -26687,7 +26254,7 @@
     662,
     667.8
    ],
-   "rank": 368
+   "rank": 362
   },
   {
    "name": "IDEXX Laboratories, Inc.",
@@ -26759,7 +26326,7 @@
     709.46,
     709.46
    ],
-   "rank": 369
+   "rank": 363
   },
   {
    "name": "Nucor Corporation",
@@ -26831,7 +26398,7 @@
     248.34,
     248.34
    ],
-   "rank": 370
+   "rank": 364
   },
   {
    "name": "Imperial Oil Limited",
@@ -26841,10 +26408,10 @@
    "country": "Canada",
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "marketCapUsd": 55777845749,
-   "price": 168.31,
+   "marketCapUsd": 55795736117,
+   "price": 168.34,
    "currency": "CAD",
-   "changePct": 21.44,
+   "changePct": 21.46,
    "listingSince": "1995-01-12",
    "yearsHistory": 31.9,
    "spark": [
@@ -26901,9 +26468,9 @@
     183.74,
     166.72,
     166.14,
-    168.31
+    168.34
    ],
-   "rank": 371
+   "rank": 365
   },
   {
    "name": "Alimentation Couche-Tard Inc.",
@@ -26913,10 +26480,10 @@
    "country": "Canada",
    "sector": "Consumer Cyclical",
    "industry": "Specialty Retail",
-   "marketCapUsd": 55740011703,
-   "price": 86.41,
+   "marketCapUsd": 55622254563,
+   "price": 86.35,
    "currency": "CAD",
-   "changePct": 14.1,
+   "changePct": 14.02,
    "listingSince": "1996-08-06",
    "yearsHistory": 30.3,
    "spark": [
@@ -26973,9 +26540,9 @@
     82.85,
     81.72,
     85.3,
-    86.41
+    86.35
    ],
-   "rank": 372
+   "rank": 366
   },
   {
    "name": "Mitsubishi Heavy Industries, Ltd.",
@@ -27047,7 +26614,7 @@
     2628,
     2622
    ],
-   "rank": 373
+   "rank": 367
   },
   {
    "name": "Murata Manufacturing Co., Ltd.",
@@ -27119,7 +26686,7 @@
     4633,
     4823
    ],
-   "rank": 374
+   "rank": 368
   },
   {
    "name": "Swiss Re AG",
@@ -27129,7 +26696,7 @@
    "country": "Switzerland",
    "sector": "Financial Services",
    "industry": "Insurance - Reinsurance",
-   "marketCapUsd": 54857164265,
+   "marketCapUsd": 54866318569,
    "price": 155.2,
    "currency": "CHF",
    "changePct": 10.46,
@@ -27191,7 +26758,7 @@
     153.7,
     155.2
    ],
-   "rank": 375
+   "rank": 369
   },
   {
    "name": "Kotak Mahindra Bank Limited",
@@ -27263,7 +26830,7 @@
     509,
     509.95
    ],
-   "rank": 376
+   "rank": 370
   },
   {
    "name": "AutoZone, Inc.",
@@ -27335,7 +26902,7 @@
     3404.46,
     3404.46
    ],
-   "rank": 377
+   "rank": 371
   },
   {
    "name": "Delta Air Lines, Inc.",
@@ -27407,7 +26974,7 @@
     82.95,
     82.95
    ],
-   "rank": 378
+   "rank": 372
   },
   {
    "name": "ONEOK, Inc.",
@@ -27479,7 +27046,7 @@
     86.45,
     86.45
    ],
-   "rank": 379
+   "rank": 373
   },
   {
    "name": "NIKE, Inc.",
@@ -27551,7 +27118,7 @@
     36.66,
     36.66
    ],
-   "rank": 380
+   "rank": 374
   },
   {
    "name": "Singapore Telecommunications Limited",
@@ -27561,7 +27128,7 @@
    "country": "Singapore",
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "marketCapUsd": 54375086146,
+   "marketCapUsd": 54382104097,
    "price": 4.25,
    "currency": "SGD",
    "changePct": -10.53,
@@ -27623,7 +27190,7 @@
     4.2,
     4.25
    ],
-   "rank": 381
+   "rank": 375
   },
   {
    "name": "National Bank of Canada",
@@ -27633,10 +27200,10 @@
    "country": "Canada",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 54349417839,
-   "price": 202.12,
+   "marketCapUsd": 54327585615,
+   "price": 202.09,
    "currency": "CAD",
-   "changePct": 20.5,
+   "changePct": 20.48,
    "listingSince": "1995-01-12",
    "yearsHistory": 31.9,
    "spark": [
@@ -27693,9 +27260,9 @@
     215.43,
     197.27,
     202.58,
-    202.12
+    202.09
    ],
-   "rank": 382
+   "rank": 376
   },
   {
    "name": "E.ON SE",
@@ -27705,7 +27272,7 @@
    "country": "Germany",
    "sector": "Utilities",
    "industry": "Utilities - Diversified",
-   "marketCapUsd": 54097893096,
+   "marketCapUsd": 54112684718,
    "price": 18.86,
    "currency": "EUR",
    "changePct": 21.48,
@@ -27767,7 +27334,7 @@
     18.61,
     18.86
    ],
-   "rank": 383
+   "rank": 377
   },
   {
    "name": "Hindustan Unilever Limited",
@@ -27839,7 +27406,7 @@
     2141.8,
     2130.8
    ],
-   "rank": 384
+   "rank": 378
   },
   {
    "name": "Luxshare Precision Industry Co., Ltd.",
@@ -27911,7 +27478,7 @@
     46.47,
     46.4
    ],
-   "rank": 385
+   "rank": 379
   },
   {
    "name": "Occidental Petroleum Corporation",
@@ -27983,7 +27550,7 @@
     53.95,
     53.95
    ],
-   "rank": 386
+   "rank": 380
   },
   {
    "name": "Saudi Telecom Company",
@@ -28055,7 +27622,7 @@
     40.4,
     40.58
    ],
-   "rank": 387
+   "rank": 381
   },
   {
    "name": "Hewlett Packard Enterprise Company",
@@ -28127,7 +27694,7 @@
     40.82,
     40.82
    ],
-   "rank": 388
+   "rank": 382
   },
   {
    "name": "Shanghai Pudong Development Bank Co., Ltd.",
@@ -28199,7 +27766,7 @@
     10.67,
     10.72
    ],
-   "rank": 389
+   "rank": 383
   },
   {
    "name": "Standard Chartered PLC",
@@ -28209,7 +27776,7 @@
    "country": "United Kingdom",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 53328152596,
+   "marketCapUsd": 53340360491,
    "price": 1885,
    "currency": "GBp",
    "changePct": 14.59,
@@ -28271,7 +27838,7 @@
     1860.5,
     1885
    ],
-   "rank": 390
+   "rank": 384
   },
   {
    "name": "Thales S.A.",
@@ -28281,7 +27848,7 @@
    "country": "France",
    "sector": "Industrials",
    "industry": "Aerospace & Defense",
-   "marketCapUsd": 52727825741,
+   "marketCapUsd": 52742242755,
    "price": 233.8,
    "currency": "EUR",
    "changePct": 3.63,
@@ -28343,7 +27910,7 @@
     227.6,
     233.8
    ],
-   "rank": 391
+   "rank": 385
   },
   {
    "name": "NAURA Technology Group Co., Ltd.",
@@ -28415,7 +27982,7 @@
     495,
     479.44
    ],
-   "rank": 392
+   "rank": 386
   },
   {
    "name": "Heineken N.V.",
@@ -28425,7 +27992,7 @@
    "country": "Netherlands",
    "sector": "Consumer Defensive",
    "industry": "Beverages - Brewers",
-   "marketCapUsd": 52285711090,
+   "marketCapUsd": 52300007219,
    "price": 85.42,
    "currency": "EUR",
    "changePct": 23.83,
@@ -28487,7 +28054,7 @@
     84.88,
     85.42
    ],
-   "rank": 393
+   "rank": 387
   },
   {
    "name": "AMETEK, Inc.",
@@ -28559,7 +28126,7 @@
     227.49,
     227.49
    ],
-   "rank": 394
+   "rank": 388
   },
   {
    "name": "Xcel Energy Inc.",
@@ -28631,7 +28198,7 @@
     81.11,
     81.11
    ],
-   "rank": 395
+   "rank": 389
   },
   {
    "name": "Infosys Limited",
@@ -28703,7 +28270,7 @@
     1130,
     1183
    ],
-   "rank": 396
+   "rank": 390
   },
   {
    "name": "Sempra",
@@ -28775,7 +28342,7 @@
     79.09,
     79.09
    ],
-   "rank": 397
+   "rank": 391
   },
   {
    "name": "Autodesk, Inc.",
@@ -28847,7 +28414,7 @@
     246.79,
     246.79
    ],
-   "rank": 398
+   "rank": 392
   },
   {
    "name": "Entergy Corporation",
@@ -28919,7 +28486,7 @@
     107.32,
     107.32
    ],
-   "rank": 399
+   "rank": 393
   },
   {
    "name": "Crédit Agricole S.A.",
@@ -28929,7 +28496,7 @@
    "country": "France",
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "marketCapUsd": 51201560361,
+   "marketCapUsd": 51215560059,
    "price": 15.43,
    "currency": "EUR",
    "changePct": -6.23,
@@ -28991,7 +28558,7 @@
     15.2,
     15.43
    ],
-   "rank": 400
+   "rank": 394
   },
   {
    "name": "Fomento Económico Mexicano, S.A.B. de C.V.",
@@ -29001,10 +28568,10 @@
    "country": "Mexico",
    "sector": "Consumer Defensive",
    "industry": "Beverages - Brewers",
-   "marketCapUsd": 51149468035,
-   "price": 244.99,
+   "marketCapUsd": 51145288109,
+   "price": 244.69,
    "currency": "MXN",
-   "changePct": 41.31,
+   "changePct": 41.14,
    "listingSince": "2000-01-03",
    "yearsHistory": 26.9,
    "spark": [
@@ -29061,9 +28628,9 @@
     243.76,
     241.89,
     251.14,
-    244.99
+    244.69
    ],
-   "rank": 401
+   "rank": 395
   },
   {
    "name": "Keurig Dr Pepper Inc.",
@@ -29135,7 +28702,7 @@
     35.63,
     35.63
    ],
-   "rank": 402
+   "rank": 396
   },
   {
    "name": "eBay Inc.",
@@ -29207,7 +28774,7 @@
     115.54,
     115.54
    ],
-   "rank": 403
+   "rank": 397
   },
   {
    "name": "Vivmark Residential",
@@ -29279,7 +28846,7 @@
     65.33,
     65.33
    ],
-   "rank": 404
+   "rank": 398
   },
   {
    "name": "Agilent Technologies, Inc.",
@@ -29351,7 +28918,7 @@
     178.44,
     178.44
    ],
-   "rank": 405
+   "rank": 399
   },
   {
    "name": "Diamondback Energy, Inc.",
@@ -29423,7 +28990,7 @@
     180.15,
     180.15
    ],
-   "rank": 406
+   "rank": 400
   },
   {
    "name": "Holcim AG",
@@ -29433,7 +29000,7 @@
    "country": "Switzerland",
    "sector": "Basic Materials",
    "industry": "Building Materials",
-   "marketCapUsd": 50196339591,
+   "marketCapUsd": 50204716118,
    "price": 75.72,
    "currency": "CHF",
    "changePct": 1.66,
@@ -29495,7 +29062,7 @@
     74.32,
     75.72
    ],
-   "rank": 407
+   "rank": 401
   }
  ]
 }

@@ -1,31 +1,13 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 import type { Company } from "@/lib/types";
+import { formatMarketCap, formatPct, formatPrice } from "@/lib/format";
 
 type SortKey = "rank" | "name" | "marketCapUsd" | "price" | "changePct" | "yearsHistory" | "country";
 
 const nf = new Intl.NumberFormat("de-DE");
-
-function formatMarketCap(usd: number) {
-  if (usd >= 1e12) return `${(usd / 1e12).toFixed(2).replace(".", ",")} Bio. $`;
-  return `${nf.format(Math.round(usd / 1e9))} Mrd. $`;
-}
-
-function formatPrice(price: number | null, currency: string) {
-  if (price == null) return "—";
-  const digits = price >= 1000 ? 0 : price >= 10 ? 2 : 3;
-  return `${price.toLocaleString("de-DE", {
-    minimumFractionDigits: digits,
-    maximumFractionDigits: digits,
-  })} ${currency}`;
-}
-
-function formatPct(p: number | null) {
-  if (p == null || Number.isNaN(p)) return "—";
-  const sign = p > 0 ? "+" : "";
-  return `${sign}${p.toFixed(2).replace(".", ",")} %`;
-}
 
 function Sparkline({ data, width = 92, height = 26 }: { data: number[]; width?: number; height?: number }) {
   if (!data || data.length < 2) return <span style={{ color: "var(--muted-2)" }}>—</span>;
@@ -217,7 +199,9 @@ export default function Watchlist({ companies }: { companies: Company[] }) {
                   <td className="rank">{c.rank}</td>
                   <td>
                     <div className="company">
-                      <span className="company-name">{c.name}</span>
+                      <Link className="company-name" href={`/u/${encodeURIComponent(c.symbol)}`}>
+                        {c.name}
+                      </Link>
                       <span className="company-sub">
                         <a
                           className="ticker"

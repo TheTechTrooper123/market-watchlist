@@ -19,7 +19,7 @@ const MIN_HISTORY_YEARS = 10;
 /** No listed company comes near this; larger values are broken quote data. */
 const MAX_PLAUSIBLE_MARKET_CAP_USD = 25e12;
 const OUT_FILE = path.join(process.cwd(), "data", "watchlist.json");
-const CACHE_DIR = path.join(process.cwd(), ".cache");
+const HISTORY_FILE = path.join(process.cwd(), "data", "history.json");
 
 const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
@@ -443,16 +443,21 @@ async function main() {
   // --- 10 year history + price series
   const now = Date.now();
   const withHistory = [];
-  const results = await pool(picked, 6, async (c) => {
-    const json = await yahoo.chart(c.symbol, "1y", "1wk");
-    const r = json?.chart?.result?.[0];
+  const decade = {};
+  const results = await pool(picked, 5, async (c) => {
+    const [y1, y10] = await Promise.all([
+      yahoo.chart(c.symbol, "1y", "1wk"),
+      yahoo.chart(c.symbol, "10y", "1mo"),
+    ]);
+    const r = y1?.chart?.result?.[0];
     if (!r?.meta) throw new Error("no chart");
-    return r;
+    return { r, ten: y10?.chart?.result?.[0] ?? null };
   });
 
   for (let i = 0; i < picked.length; i++) {
     const c = picked[i];
-    const r = results[i];
+    const r = results[i]?.r;
+    const ten = results[i]?.ten;
     if (!r || r.__error || !r.meta) { bump("keine Kurshistorie"); continue; }
     const meta = r.meta;
     const first = meta.firstTradeDate ? new Date(meta.firstTradeDate * 1000) : null;
@@ -462,6 +467,20 @@ async function main() {
     if (closes.length < 20) { bump("zu wenige Kurspunkte"); continue; }
     const price = meta.regularMarketPrice ?? closes[closes.length - 1];
     const prev = meta.chartPreviousClose ?? meta.previousClose ?? null;
+    // Monatsreihe für die Detailseite (max. 10 Jahre).
+    const ts = ten?.timestamp ?? [];
+    const closes10 = ten?.indicators?.quote?.[0]?.close ?? [];
+    const points = [];
+    for (let k = 0; k < closes10.length; k++) {
+      if (typeof closes10[k] === "number" && ts[k]) points.push([ts[k], closes10[k]]);
+    }
+    if (points.length >= 60) {
+      decade[c.symbol] = {
+        s: new Date(points[0][0] * 1000).toISOString().slice(0, 10),
+        c: points.map(([, v]) => Number(v.toFixed(2))),
+      };
+    }
+
     withHistory.push({
       name: c.name,
       symbol: c.symbol,
@@ -504,6 +523,11 @@ async function main() {
 
   await fs.mkdir(path.dirname(OUT_FILE), { recursive: true });
   await fs.writeFile(OUT_FILE, JSON.stringify(snapshot, null, 1) + "\n");
+  await fs.writeFile(
+    HISTORY_FILE,
+    JSON.stringify({ generatedAt: snapshot.generatedAt, series: decade }) + "\n",
+  );
+  log(`wrote ${path.relative(process.cwd(), HISTORY_FILE)}: ${Object.keys(decade).length} Kursreihen`);
   log(
     `wrote ${path.relative(process.cwd(), OUT_FILE)}: ${withHistory.length} companies in ${(
       (Date.now() - started) / 1000
