@@ -2,7 +2,29 @@ import snapshotJson from "@/data/watchlist.json";
 import type { Snapshot } from "@/lib/types";
 import Watchlist from "@/components/Watchlist";
 
-const snapshot = snapshotJson as unknown as Snapshot;
+/**
+ * Die Momentaufnahme wird zur Laufzeit aus dem Repository geladen. Der
+ * tägliche Screener committet dort eine frische Datei, die Seite zieht sie
+ * beim nächsten Revalidieren nach — ohne neues Deployment.
+ */
+const RAW_URL =
+  "https://raw.githubusercontent.com/TheTechTrooper123/market-watchlist/main/data/watchlist.json";
+
+export const revalidate = 900;
+
+const fallback = snapshotJson as unknown as Snapshot;
+
+async function loadSnapshot(): Promise<Snapshot> {
+  try {
+    const res = await fetch(RAW_URL, { next: { revalidate: 900 } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = (await res.json()) as Snapshot;
+    if (!Array.isArray(data.companies) || data.companies.length === 0) throw new Error("leer");
+    return data;
+  } catch {
+    return fallback;
+  }
+}
 
 const nf = new Intl.NumberFormat("de-DE");
 
@@ -16,7 +38,8 @@ function formatAsOf(iso: string) {
   });
 }
 
-export default function Page() {
+export default async function Page() {
+  const snapshot = await loadSnapshot();
   const { companies, criteria, stats, generatedAt, asOf } = snapshot;
   const countries = new Set(companies.map((c) => c.country).filter(Boolean));
   const generated = new Date(generatedAt).toLocaleString("de-DE", {
