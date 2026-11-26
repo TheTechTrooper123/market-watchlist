@@ -33,3 +33,14 @@ export type Snapshot = {
   };
   companies: Company[];
 };
+
+/** Monthly closes of one company: first month and the values in listing currency. */
+export type PriceSeries = {
+  s: string;
+  c: number[];
+};
+
+export type History = {
+  generatedAt: string;
+  series: Record<string, PriceSeries>;
+};

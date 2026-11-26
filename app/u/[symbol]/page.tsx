@@ -1,15 +1,18 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import Topbar from "@/components/Topbar";
+import { notFound } from "next/navigation";
+import CompanyFacts from "@/components/CompanyFacts";
 import PriceChart from "@/components/PriceChart";
-import { allCompanies, loadHistory, loadSnapshot } from "@/lib/data";
-import { formatDate, formatMarketCap, formatPct, formatPrice } from "@/lib/format";
+import Topbar from "@/components/Topbar";
+import { buildCompanyFacts } from "@/lib/companyView";
+import { bundledCompanies, loadHistory, loadSnapshot } from "@/lib/data";
+import { changeTone, formatPct, formatPrice } from "@/lib/format";
+import { yahooQuoteUrl } from "@/lib/site";
 
 export const revalidate = 900;
 
 export function generateStaticParams() {
-  return allCompanies().map((c) => ({ symbol: c.symbol }));
+  return bundledCompanies().map((company) => ({ symbol: company.symbol }));
 }
 
 export async function generateMetadata({
@@ -18,11 +21,13 @@ export async function generateMetadata({
   params: Promise<{ symbol: string }>;
 }): Promise<Metadata> {
   const { symbol } = await params;
-  // Bewusst die Laufzeit-Momentaufnahme statt der im Build gebündelten Kopie:
-  // sonst tragen neu aufgenommene Unternehmen falsche Metadaten.
+  // Live snapshot, not the build-time copy: otherwise companies added by today's
+  // screener would carry "not found" metadata despite rendering fine.
   const snapshot = await loadSnapshot();
-  const company = snapshot.companies.find((c) => c.symbol === symbol);
+  const company = snapshot.companies.find((entry) => entry.symbol === symbol);
+
   if (!company) return { title: "Unternehmen nicht gefunden — Market Watchlist" };
+
   return {
     title: `${company.name} (${company.symbol}) — Market Watchlist`,
     description: `${company.name} an der ${company.exchange}: Marktkapitalisierung, Kennzahlen und Kursverlauf der letzten zehn Jahre.`,
@@ -36,30 +41,12 @@ export default async function CompanyPage({
 }) {
   const { symbol } = await params;
   const [snapshot, history] = await Promise.all([loadSnapshot(), loadHistory()]);
-  const company = snapshot.companies.find((c) => c.symbol === symbol);
+
+  const company = snapshot.companies.find((entry) => entry.symbol === symbol);
   if (!company) notFound();
 
   const series = history.series[symbol];
-  const performance =
-    series && series.c.length > 1
-      ? ((series.c[series.c.length - 1] - series.c[0]) / series.c[0]) * 100
-      : null;
-
-  const facts: [string, string][] = [
-    ["Marktkapitalisierung", formatMarketCap(company.marketCapUsd)],
-    ["Kurs", formatPrice(company.price, company.currency)],
-    ["Erste Notierung", formatDate(company.listingSince)],
-    ["Kurshistorie", `${company.yearsHistory.toFixed(1)} Jahre`],
-    ["Börse", `${company.exchange} (${company.exchangeCode})`],
-    ["Land", company.country || "—"],
-    ["Sektor", company.sector],
-    ["Branche", company.industry],
-    ["Rang", `${company.rank} von ${snapshot.companies.length}`],
-    [
-      "10-Jahres-Entwicklung",
-      performance == null ? "—" : formatPct(Number(performance.toFixed(2))),
-    ],
-  ];
+  const facts = buildCompanyFacts(company, snapshot.companies.length, series);
 
   return (
     <main className="wrap">
@@ -78,7 +65,7 @@ export default async function CompanyPage({
           <div className="detail-sub">
             <a
               className="ticker"
-              href={`https://finance.yahoo.com/quote/${encodeURIComponent(company.symbol)}`}
+              href={yahooQuoteUrl(company.symbol)}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -91,9 +78,7 @@ export default async function CompanyPage({
         </div>
         <div className="detail-price">
           <div className="price">{formatPrice(company.price, company.currency)}</div>
-          <div
-            className={`chg ${company.changePct == null ? "flat" : company.changePct > 0 ? "up" : company.changePct < 0 ? "down" : "flat"}`}
-          >
+          <div className={`chg ${changeTone(company.changePct)}`}>
             {formatPct(company.changePct)} heute
           </div>
         </div>
@@ -113,23 +98,14 @@ export default async function CompanyPage({
         )}
       </section>
 
-      <dl className="facts">
-        {facts.map(([label, value]) => (
-          <div className="fact" key={label}>
-            <dt>{label}</dt>
-            <dd>{value}</dd>
-          </div>
-        ))}
-      </dl>
+      <CompanyFacts facts={facts} />
 
       <footer className="foot">
         <p>
           Kurse in {company.currency}, Marktkapitalisierung in USD umgerechnet. Daten: Yahoo
           Finance · keine Anlageberatung.
         </p>
-        <p>
-          Kriterien der Liste: ≥ 50 Mrd. USD, Stammaktien, Heimatbörse, ≥ 10 Jahre Historie.
-        </p>
+        <p>Kriterien der Liste: ≥ 50 Mrd. USD, Stammaktien, Heimatbörse, ≥ 10 Jahre Historie.</p>
       </footer>
     </main>
   );

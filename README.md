@@ -85,15 +85,28 @@ app/
   not-found.tsx       Deutsche 404-Seite
   layout.tsx, globals.css
 components/
-  Watchlist.tsx       Tabelle mit Suche, Filtern, Sortierung, Sparklines
+  Watchlist.tsx       Container: hält Filter- und Sortierzustand
+  WatchlistToolbar.tsx Suche, Filter, Trefferzähler
+  WatchlistTable.tsx  Tabelle mit sortierbaren Spalten
+  Sparkline.tsx       Trendlinie je Tabellenzeile
   PriceChart.tsx      10-Jahres-Liniendiagramm als SVG (ohne Chart-Bibliothek)
-  Topbar.tsx          Kopfzeile mit Datenstand
+  Hero.tsx, SummaryStats.tsx, StaleNotice.tsx, CompanyFacts.tsx, Topbar.tsx
 lib/
-  data.ts             Laden der Momentaufnahme (ISR aus dem Repo, Fallback: gebündelte JSON)
+  data.ts             Momentaufnahme und Kursreihen laden (ISR, Fallback: gebündelte JSON)
+  watchlist.ts        Reine Filter- und Sortierlogik der Tabelle
+  companyView.ts      Kennzahlen der Detailseite
+  freshness.ts        Alter der Daten in Handelstagen
   format.ts           Zahlen-, Kurs- und Datumsformatierung (de-DE)
+  site.ts             Links, Datenendpunkt, Revalidierungsintervall
   types.ts            Typen für Snapshot und Kursreihen
 scripts/
-  screen.mjs          Screener: Börsen auslesen, filtern, beide JSON-Dateien schreiben
+  screen.mjs          Einstiegspunkt des Screeners
+  lib/config.mjs      Schwellen, Börsen, Heimatmärkte, Ausgabepfade
+  lib/yahoo.mjs       Yahoo-Client: Cookie/Crumb, Retries, vier Endpunkte
+  lib/screener.mjs    Pipeline: einlesen, filtern, Heimatbörse, Historie, schreiben
+  lib/shares.mjs      Stammaktien- und Namensregeln
+  lib/currency.mjs    Währungsumrechnung
+  lib/concurrency.mjs Begrenzte Parallelität
 data/
   watchlist.json      Momentaufnahme (Unternehmen, Kennzahlen, Statistik)
   history.json        Monatsreihen der letzten zehn Jahre je Symbol
@@ -101,6 +114,14 @@ data/
   screen.yml          Cron: werktags 22:30 UTC
   deploy.yml          Manuelles Fallback-Deployment
 ```
+
+**Leitlinien**
+
+Reine Logik (Filtern, Sortieren, Kennzahlen, Formatierung) liegt in `lib/` und ist ohne
+React nutzbar; Komponenten rendern nur. Der Screener ist in `scripts/lib/` nach Aufgaben
+getrennt, alle Schwellen, Börsen und Heimatmärkte stehen in `scripts/lib/config.mjs`.
+Fehler werden an einer Stelle behandelt (Chart-Abrufe, Profil-Abrufe, Schreiben),
+Bezeichner sind sprechend und Funktionen bleiben kurz.
 
 **Datenfluss**
 
