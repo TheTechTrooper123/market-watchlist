@@ -1,0 +1,39 @@
+name: Täglicher Screener
+
+on:
+  schedule:
+    # Werktags 22:30 UTC — nach Handelsschluss in New York (21:00 UTC).
+    - cron: "30 22 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: screener
+  cancel-in-progress: false
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Börsen auslesen
+        run: node scripts/screen.mjs
+
+      - name: Daten committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/watchlist.json
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "chore: Watchlist $(date -u +%Y-%m-%d)"
+            git push
+          fi
