@@ -98,7 +98,7 @@ data/
   history.json        Monatsreihen der letzten zehn Jahre je Symbol
 .github/workflows/
   screen.yml          Cron: werktags 22:30 UTC
-  deploy.yml          Deployment bei Push auf main
+  deploy.yml          Manuelles Fallback-Deployment
 ```
 
 **Datenfluss**
@@ -109,8 +109,8 @@ data/
    `raw.githubusercontent.com` (`lib/data.ts`, Revalidierung alle 900 s). Neue Daten
    erscheinen dadurch ohne Deployment. Schlägt der Abruf fehl, greift die im Build
    gebündelte Kopie.
-3. Code-Änderungen auf `main` lösen `deploy.yml` aus, das nach Typecheck und Build zu
-   Vercel deployt.
+3. Code-Änderungen auf `main` deployt Vercel selbst über die Git-Integration des
+   Projekts; `deploy.yml` bleibt als manuell auslösbare Rückfallebene.
 
 Es gibt keine Datenbank und keinen API-Key für die Kursdaten.
 
@@ -132,30 +132,26 @@ Es gibt keine Datenbank und keinen API-Key für die Kursdaten.
 - **Zusammenfassung:** Unternehmen, Kursreihen und Erzeugungszeitpunkt stehen im
   Job-Summary des Laufs.
 
-### Deployment — `deploy.yml`
+### Deployment
 
-- **Auslöser:** Push auf `main`; Daten-Commits (`data/**`) und reine
-  Markdown-Änderungen sind ausgenommen, weil die Seite die Daten ohnehin zur Laufzeit
-  zieht.
-- **Ablauf:** `npm ci` → `tsc --noEmit` → `vercel deploy --prod --yes --archive=tgz`.
-  Vercel baut aus dem Quellcode; der Tarball-Upload verbraucht nur eine Datei statt
-  hunderter und hält damit das Upload-Limit des Free-Plans ein.
-- **Manuell:** `gh workflow run deploy.yml`.
-- **Parallele Läufe:** Ein neuer Push bricht einen laufenden Deploy ab
+- **Primär: Vercel-Git-Integration.** Das Projekt `market-watchlist` im Team `till12`
+  ist mit dem GitHub-Repository verbunden (Vercel-GitHub-App auf dem Konto
+  `TheTechTrooper123`). Jeder Push auf `main` erzeugt ein Produktions-Deployment;
+  Ergebnis und Build-Log stehen im Vercel-Dashboard und als Check-Run am Commit.
+- **Fallback: `deploy.yml`** — nur noch manuell (`gh workflow run deploy.yml`), etwa
+  wenn die Git-Integration klemmt. Ablauf: `npm ci` → `tsc --noEmit` →
+  `vercel deploy --prod --yes --archive=tgz` (Tarball-Upload, damit das Datei-Limit
+  des Free-Plans nicht greift).
+- **Parallele Läufe:** Ein neuer Push bricht einen laufenden Fallback-Deploy ab
   (`concurrency: deploy-production`).
-
-> Die native Vercel-GitHub-Integration ist nicht aktiv: Die Vercel-GitHub-App hat
-> keinen Zugriff auf dieses Repository (`vercel git connect` scheitert mit „You need
-> admin or write access to the repository“). Die Action oben leistet dasselbe —
-> Push auf `main` ergibt ein Produktions-Deployment.
 
 ### Benötigte Repository-Secrets
 
 | Secret | Inhalt |
 | --- | --- |
-| `VERCEL_TOKEN` | Vercel-Zugriffstoken des Kontos `till-dev` (`vercel tokens create`) |
-| `VERCEL_ORG_ID` | Team-ID `team_N4FndqdmVdXsKMOatxALg4Rp` |
-| `VERCEL_PROJECT_ID` | Projekt-ID `prj_rI602u4kXdSPPxkOdYcVdC5nsVry` |
+| `VERCEL_TOKEN` | Vercel-Zugriffstoken des Kontos `thetechtrooper123` (Team `till12`) |
+| `VERCEL_ORG_ID` | Team-ID `team_Zrn2w9pnalIedpzUHaAbAFxG` |
+| `VERCEL_PROJECT_ID` | Projekt-ID `prj_5sEUgaAVLtpWxaarAYkW11LyaEUf` |
 
 Setzen mit `gh secret set <NAME>`. Der Screener braucht keine Secrets; er nutzt das
 automatische `GITHUB_TOKEN` (`permissions: contents: write`).
@@ -179,15 +175,19 @@ Verhalten:
 - Der nächste erfolgreiche Lauf kommentiert und **schließt** das Issue automatisch.
 - Läufe lassen sich zusätzlich in der Actions-Übersicht und per
   `gh run list --workflow=screen.yml` einsehen.
+- Native Vercel-Deployments erzeugen kein Issue: Fehler dort erscheinen als
+  fehlgeschlagener Check-Run am Commit und im Vercel-Dashboard.
 
 ## Domain und Hosting
 
 - **Domain:** `market-watchlist.ddnsfree.com` (Dynu DDNS, kostenlose Subdomain).
 - **DNS:** CNAME auf `cname.vercel-dns.com`, TTL 600 (Apex-Record, kein A-Record).
-- **Vercel-Projekt:** `market-watchlist` im Team `till9`, Domain dort hinterlegt und
-  per Let's-Encrypt-Zertifikat abgesichert; HTTP leitet mit 308 auf HTTPS um.
-- **Zweite Adresse:** `market-watchlist-one.vercel.app` bleibt als Vercel-Standardalias
-  erreichbar.
+- **Vercel-Projekt:** `market-watchlist` im Team `till12` (Konto `thetechtrooper123`),
+  Domain dort hinterlegt und per Let's-Encrypt-Zertifikat abgesichert; HTTP leitet mit
+  308 auf HTTPS um.
+- **Vercel-Adresse:** `market-watchlist-beryl.vercel.app`.
+- **Ehemaliges Projekt:** `market-watchlist` im Team `till9` (Konto `till-dev`) besteht
+  noch als stillgelegter Stand; Domain und Deployments liegen jetzt bei `till12`.
 
 Dynu per API (Key aus `dynu_config.json`, Header `API-Key`):
 
@@ -306,7 +306,7 @@ Historie, 24 nur Zweitnotierung oder Hinterlegungsschein, 2 unplausible Kursdate
 | Domain zeigt 404 oder Zertifikatsfehler | `dig +short market-watchlist.ddnsfree.com CNAME` muss `cname.vercel-dns.com.` liefern; sonst CNAME bei Dynu prüfen und `vercel domains verify market-watchlist.ddnsfree.com` ausführen |
 | Deploy schlägt fehl | Issue „Deployment fehlgeschlagen“ mit Lauf-Link; Typecheck lokal mit `npx tsc --noEmit` reproduzieren |
 | Deploy meldet `Too many requests … api-upload-free` | Vercel-Free-Plan: mehr als 5.000 hochgeladene Dateien in 24 Stunden. Der Workflow lädt deshalb ein tgz-Archiv; bei vielen Deploys hilft nur Abwarten bis zum Ablauf des Fensters |
-| `vercel git connect` scheitert | Vercel-GitHub-App hat keinen Repo-Zugriff; Deploy läuft stattdessen über `deploy.yml` |
+| `vercel git connect` scheitert | Die Vercel-GitHub-App muss auf dem GitHub-Konto `TheTechTrooper123` installiert sein (nicht auf einem anderen Konto); sonst Deploy über `deploy.yml` |
 
 ## Lizenz
 

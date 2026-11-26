@@ -1,14 +1,9 @@
 name: Deployment
 
-# Pushes auf main gehen automatisch nach Vercel. Daten-Commits des Screeners
-# lösen bewusst kein Deployment aus: die Seite zieht data/*.json zur Laufzeit
-# aus dem Repository (ISR, 900 s).
+# Pushes auf main deployt Vercel selbst über die Git-Integration (Projekt
+# market-watchlist, Team till12). Dieser Workflow ist die manuelle Rückfallebene,
+# falls die Integration nicht greift.
 on:
-  push:
-    branches: [main]
-    paths-ignore:
-      - "data/**"
-      - "**.md"
   workflow_dispatch:
 
 permissions:
