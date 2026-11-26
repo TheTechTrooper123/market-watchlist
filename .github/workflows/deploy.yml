@@ -1,0 +1,104 @@
+name: Deployment
+
+# Pushes auf main gehen automatisch nach Vercel. Daten-Commits des Screeners
+# lösen bewusst kein Deployment aus: die Seite zieht data/*.json zur Laufzeit
+# aus dem Repository (ISR, 900 s).
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/**"
+      - "**.md"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Abhängigkeiten installieren
+        run: npm ci
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Vercel-Projekt übernehmen
+        run: npx --yes vercel@latest pull --yes --environment=production --token="$VERCEL_TOKEN"
+
+      - name: Build
+        run: npx --yes vercel@latest build --prod --token="$VERCEL_TOKEN"
+
+      - name: Produktion deployen
+        run: npx --yes vercel@latest deploy --prebuilt --prod --token="$VERCEL_TOKEN"
+
+      - name: Fehlermeldung als Issue anlegen
+        if: failure()
+        uses: actions/github-script@v7
+        env:
+          TITLE: Deployment fehlgeschlagen
+        with:
+          script: |
+            const title = process.env.TITLE;
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const started = new Date().toISOString();
+            const body = [
+              `Das Deployment für \`${context.ref}\` ist fehlgeschlagen (**${started}**).`,
+              "",
+              `- Lauf: ${runUrl}`,
+              `- Commit: \`${context.sha.slice(0, 7)}\``,
+              "",
+              "Die zuletzt erfolgreiche Version bleibt online. Nach der Korrektur deployt der nächste Push automatisch,",
+              "oder manuell: `gh workflow run deploy.yml`.",
+            ].join("\n");
+            const { data: open } = await github.rest.issues.listForRepo({
+              ...context.repo, state: "open", per_page: 100,
+            });
+            const existing = open.find((issue) => issue.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                ...context.repo, issue_number: existing.number,
+                body: `Erneut fehlgeschlagen am ${started}: ${runUrl}`,
+              });
+            } else {
+              await github.rest.issues.create({ ...context.repo, title, body });
+            }
+
+      - name: Fehlermeldung schließen
+        if: success()
+        uses: actions/github-script@v7
+        env:
+          TITLE: Deployment fehlgeschlagen
+        with:
+          script: |
+            const title = process.env.TITLE;
+            const { data: open } = await github.rest.issues.listForRepo({
+              ...context.repo, state: "open", per_page: 100,
+            });
+            for (const issue of open.filter((i) => i.title === title)) {
+              await github.rest.issues.createComment({
+                ...context.repo, issue_number: issue.number,
+                body: `Wieder erfolgreich am ${new Date().toISOString()}.`,
+              });
+              await github.rest.issues.update({
+                ...context.repo, issue_number: issue.number, state: "closed",
+              });
+            }
