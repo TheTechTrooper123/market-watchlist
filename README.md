@@ -131,8 +131,9 @@ Es gibt keine Datenbank und keinen API-Key für die Kursdaten.
 - **Auslöser:** Push auf `main`; Daten-Commits (`data/**`) und reine
   Markdown-Änderungen sind ausgenommen, weil die Seite die Daten ohnehin zur Laufzeit
   zieht.
-- **Ablauf:** `npm ci` → `tsc --noEmit` → `vercel pull` → `vercel build` →
-  `vercel deploy --prebuilt --prod`.
+- **Ablauf:** `npm ci` → `tsc --noEmit` → `vercel deploy --prod --yes --archive=tgz`.
+  Vercel baut aus dem Quellcode; der Tarball-Upload verbraucht nur eine Datei statt
+  hunderter und hält damit das Upload-Limit des Free-Plans ein.
 - **Manuell:** `gh workflow run deploy.yml`.
 - **Parallele Läufe:** Ein neuer Push bricht einen laufenden Deploy ab
   (`concurrency: deploy-production`).
@@ -298,6 +299,7 @@ Historie, 24 nur Zweitnotierung oder Hinterlegungsschein, 2 unplausible Kursdate
 | Screener meldet „Nur … Unternehmen“ | Yahoo-Antwortformat geändert oder Rate-Limit; `scripts/screen.mjs` lokal mit `npm run screen` prüfen |
 | Domain zeigt 404 oder Zertifikatsfehler | `dig +short market-watchlist.ddnsfree.com CNAME` muss `cname.vercel-dns.com.` liefern; sonst CNAME bei Dynu prüfen und `vercel domains verify market-watchlist.ddnsfree.com` ausführen |
 | Deploy schlägt fehl | Issue „Deployment fehlgeschlagen“ mit Lauf-Link; Typecheck lokal mit `npx tsc --noEmit` reproduzieren |
+| Deploy meldet `Too many requests … api-upload-free` | Vercel-Free-Plan: mehr als 5.000 hochgeladene Dateien in 24 Stunden. Der Workflow lädt deshalb ein tgz-Archiv; bei vielen Deploys hilft nur Abwarten bis zum Ablauf des Fensters |
 | `vercel git connect` scheitert | Vercel-GitHub-App hat keinen Repo-Zugriff; Deploy läuft stattdessen über `deploy.yml` |
 
 ## Lizenz
