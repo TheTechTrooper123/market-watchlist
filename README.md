@@ -268,20 +268,21 @@ In `lib/data.ts` legt `RAW_BASE` fest, woher die Laufzeitdaten kommen, und
 
 ## Aktueller Datenstand
 
-Letzter Screener-Lauf: **26. November 2026, 20:38 UTC**
+Letzter Screener-Lauf: **26. November 2026, 21:17 UTC**
 
 | Kennzahl | Wert |
 | --- | --- |
-| Geprüfte Notierungen | 7.428 |
+| Geprüfte Notierungen | 7.421 |
 | Über 50 Mrd. USD | 454 Unternehmen |
 | Nach Historien- und Heimatbörsenfilter | **401 Unternehmen** |
 | Börsen im Scan | 34 (28 Börsenplätze in der Liste vertreten) |
 | Länder | 27 |
 
-Aussortiert im letzten Lauf: 5.330 unter 50 Mrd. USD, 335 ohne Kursdaten oder
-Marktwert, 252 keine Stammaktie (Fonds, Vorzüge, Anleihen, ADR), 53 unter zehn Jahren
+Aussortiert im letzten Lauf: 5.321 unter 50 Mrd. USD, 335 ohne Kursdaten oder
+Marktwert, 256 keine Stammaktie (Fonds, Vorzüge, Anleihen, ADR), 53 unter zehn Jahren
 Historie, 25 nur Zweitnotierung oder Hinterlegungsschein, 2 unplausible Kursdaten,
-1 unbekannter Sitz. Die Zahlen schwanken mit jedem Lauf um einige Unternehmen.
+1 unbekannter Sitz. Die Zahlen schwanken mit jedem Lauf um einige Unternehmen; die
+tagesaktuellen Werte stehen auf der Startseite.
 
 ## Datenquelle, Grenzen, Rechtliches
 
